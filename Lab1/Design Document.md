@@ -5,18 +5,18 @@
 	- [ ] Download Docker
 	- [ ] Install needed Image
 	- [ ] Operate Image
-- [ ] Figure Out Magic
-	- [ ] Install
-	- [ ] Read Tutorials
-		- [ ] 1
-		- [ ] 2
+- [X] Figure Out Magic
+	- [X] Install
+	- [X] Read Tutorials
+		- [X] 1
+		- [X] 2
 		- [ ] 8
 		- [ ] 6
 		- [ ] 4
 
 #### Part 2: Inverter Design (Due Fri 9-15-25)
 - [ ] Read (skim) and Understand SCMOS Doc
-- [ ] Use Magic to Generate Inverter Circuit Layout
+- [X] Use Magic to Generate Inverter Circuit Layout
 
 #### Part 3: Simulating Inverter Design (Due Mon 9-16-25)
 - [ ] Generate .ext file with Layout
