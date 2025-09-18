@@ -1,0 +1,54 @@
+magic
+tech scmos
+timestamp 1758161944
+<< pwell >>
+rect -8 -32 -5 -29
+<< metal1 >>
+rect -36 51 -35 55
+rect -42 45 -30 46
+rect -36 42 -30 45
+rect 1 17 15 20
+rect 22 8 25 15
+rect 36 14 37 18
+rect -36 -17 -35 -13
+rect -42 -23 -28 -22
+rect -36 -26 -28 -23
+<< m2contact >>
+rect -42 50 -36 55
+rect -42 40 -36 45
+rect -11 36 -5 41
+rect -5 15 1 20
+rect 37 14 43 19
+rect 19 3 25 8
+rect -42 -18 -36 -13
+rect -42 -28 -36 -23
+rect -11 -32 -5 -27
+<< metal2 >>
+rect -50 50 -42 53
+rect -50 40 -42 43
+rect -5 20 -2 39
+rect 43 14 45 17
+rect 22 -6 25 3
+rect -5 -9 25 -6
+rect -50 -18 -42 -15
+rect -50 -28 -42 -25
+rect -5 -32 -2 -9
+use nor2  nor2_1
+timestamp 1758084387
+transform 1 0 -53 0 1 -42
+box 6 -10 48 47
+use nor2  nor2_0
+timestamp 1758084387
+transform 1 0 -53 0 1 26
+box 6 -10 48 47
+use nand2  nand2_0
+timestamp 1758161658
+transform 1 0 -9 0 1 3
+box 10 -7 47 38
+<< labels >>
+rlabel metal2 -50 50 -42 53 7 a
+rlabel metal2 -50 40 -42 43 7 b
+rlabel metal2 -50 -18 -42 -15 7 c
+rlabel metal2 -50 -28 -42 -25 7 d
+rlabel metal2 43 14 45 17 3 OUT
+<< end >>

@@ -1,0 +1,57 @@
+timestamp 1758161944
+version 8.3
+tech scmos
+style TSMC0.18um(tsmc18)from:t24i
+scale 1000 1 9
+resistclasses 6900 7800 946000 946000 1 8000 8000 80 80 80 80 80 40
+use nor2 nor2_1 1 0 -53 0 1 -42
+use nor2 nor2_0 1 0 -53 0 1 26
+use nand2 nand2_0 1 0 -9 0 1 3
+node "d" 1 88.395 -42 -28 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 68 40 54 38 0 0 0 0 0 0 0 0
+node "c" 0 58.306 -42 -18 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 34 24 54 38 0 0 0 0 0 0 0 0
+node "OUT" 0 51.136 36 14 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 34 24 36 26 0 0 0 0 0 0 0 0
+node "m1_n11_n32#" 3 182.759 -11 -32 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 81 58 246 158 0 0 0 0 0 0 0 0
+node "m1_n11_36#" 2 161.21 -11 36 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 102 72 117 76 0 0 0 0 0 0 0 0
+node "b" 1 80.563 -42 40 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 60 36 54 38 0 0 0 0 0 0 0 0
+node "a" 0 58.306 -42 50 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 34 24 54 38 0 0 0 0 0 0 0 0
+node "w_n8_n32#" 0 0 -8 -32 pw 0 0 0 0 0 0 0 0 9 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "w_n8_n32#" "m1_n11_n32#" 3.582
+cap "d" "c" 197.864
+cap "b" "a" 197.864
+subcap "d" -26.066
+subcap "OUT" -15.261
+subcap "m1_n11_n32#" -84.654
+subcap "m1_n11_36#" -84.541
+subcap "b" -18.234
+subcap "a" -74.168
+cap "nor2_1/out" "nand2_0/a_28_0#" 29.462
+cap "nor2_1/out" "nand2_0/out" 61.5653
+cap "nand2_0/out" "nand2_0/Vdd!" 1.569
+cap "nor2_1/B" "nor2_1/Vdd!" 11.016
+cap "nor2_1/out" "nor2_0/out" 21.3957
+cap "nor2_1/out" "nand2_0/GND!" 161.827
+cap "nand2_0/Vdd!" "nor2_0/out" 41.4716
+cap "nor2_1/out" "nor2_1/Vdd!" 6.276
+cap "nand2_0/out" "nand2_0/GND!" -2.251
+cap "nor2_0/GND!" "nor2_0/out" 41.2713
+cap "nor2_0/Vdd!" "nor2_0/out" 6.276
+cap "nor2_1/A" "nor2_1/Vdd!" 1.162
+cap "w_n8_n32#" "nor2_1/out" 9.51
+cap "nor2_0/A" "nor2_0/B" 41.1416
+cap "nand2_0/GND!" "nor2_0/out" 63.0611
+cap "nor2_0/Vdd!" "nor2_0/B" 11.016
+cap "nor2_0/B" "nor2_0/out" 1.42109e-14
+cap "nor2_1/A" "nor2_1/B" 59.6112
+subcap "b" -190.673
+cap "nor2_0/A" "nor2_0/Vdd!" 1.162
+cap "nor2_0/A" "nor2_0/B" 18.4696
+merge "nor2_1/A" "c" -14.383 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3 -10 0 0 0 0 0 0 0 0 0 0
+merge "nor2_1/B" "d" -39.114 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -12 0 0 0 0 0 0 0 0 0 0
+merge "nand2_0/B" "nor2_1/out" -100.986 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -14 0 0 0 0 0 0 0 0 0 0
+merge "nor2_1/out" "m1_n11_n32#"
+merge "nor2_1/GND!" "w_n8_n32#" 0 0 0 0 0 0 0 0 0 -513 -120 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nand2_0/out" "OUT" -15.261 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -12 0 0 0 0 0 0 0 0 0 0
+merge "nand2_0/A" "nor2_0/out" -74.175 0 0 0 0 0 0 0 0 0 0 0 0 0 0 39 -14 42 0 0 0 0 0 0 0 0 0
+merge "nor2_0/out" "m1_n11_36#"
+merge "nor2_0/B" "b" -31.282 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0 0 0 0 0 0 0
+merge "nor2_0/A" "a" -15.577 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 -10 0 0 0 0 0 0 0 0 0 0
