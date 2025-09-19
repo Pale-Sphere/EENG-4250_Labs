@@ -1,0 +1,16 @@
+ana A B out
+h Vdd!
+l GND!
+l A
+l B
+s
+
+h A
+s
+
+l A
+h B
+s
+
+h A
+s

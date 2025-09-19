@@ -1,0 +1,8 @@
+ana in out
+h Vdd!
+l GND!
+
+h in
+s
+l in
+s
