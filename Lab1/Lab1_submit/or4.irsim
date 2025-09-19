@@ -1,0 +1,45 @@
+h Vdd!
+l GND!
+
+l a b c d
+s
+h d
+s
+l d
+h c
+s
+h d
+s
+l c d
+h b
+s
+h d
+s
+h c
+l d
+s
+h d
+s
+l b c d
+h a
+s
+h d
+s
+l d
+h c
+s
+h d
+s
+l c d
+h b
+s
+h d
+s
+h c
+l d
+s
+h d
+s
+s
+l a b c d
+s
