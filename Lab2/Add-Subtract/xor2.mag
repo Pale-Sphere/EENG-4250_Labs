@@ -1,0 +1,35 @@
+magic
+tech scmos
+timestamp 1758932666
+<< metal1 >>
+rect 4 42 7 43
+rect 4 39 46 42
+rect 4 10 7 39
+rect 67 8 84 11
+rect 24 -16 54 -15
+rect 24 -18 58 -16
+rect 104 -21 109 -18
+rect 67 -48 92 -45
+rect 12 -74 15 -49
+rect 12 -77 54 -74
+use nand2  nand2_3
+timestamp 1758926659
+transform 1 0 -22 0 1 -34
+box 10 -15 47 44
+use nand2  nand2_1
+timestamp 1758926659
+transform 1 0 58 0 1 -33
+box 10 -15 47 44
+use nand2  nand2_0
+timestamp 1758926659
+transform 1 0 21 0 1 -1
+box 10 -15 47 44
+use nand2  nand2_2
+timestamp 1758926659
+transform 1 0 21 0 1 -62
+box 10 -15 47 44
+<< labels >>
+rlabel metal1 107 -20 108 -20 3 out
+rlabel metal1 5 42 6 42 1 a
+rlabel metal1 13 -76 14 -76 5 b
+<< end >>

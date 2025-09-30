@@ -1,0 +1,75 @@
+magic
+tech scmos
+timestamp 1758934015
+<< metal1 >>
+rect 17 -2 21 10
+rect -53 -7 -52 -3
+rect -7 -11 -3 -9
+rect -137 -12 -134 -11
+rect -136 -43 -133 -12
+rect -82 -22 -78 -20
+rect 48 -23 52 -22
+rect -39 -28 -14 -25
+rect -163 -46 -129 -43
+rect -49 -62 -46 -61
+rect -49 -63 -45 -62
+rect -19 -71 -17 -68
+rect -21 -77 -18 -75
+rect -38 -78 -18 -77
+rect -38 -80 -20 -78
+rect -38 -103 -35 -80
+rect -40 -106 -35 -103
+rect 86 -107 90 -104
+rect -39 -133 -11 -132
+rect -39 -135 -10 -133
+rect -163 -162 -125 -159
+rect -88 -162 -84 -159
+rect -42 -166 -39 -135
+rect -13 -136 -10 -135
+<< m2contact >>
+rect -105 -2 -100 3
+rect -52 -7 -47 -2
+rect -8 -9 -3 -4
+rect -82 -27 -77 -22
+rect -14 -28 -9 -23
+rect 48 -28 53 -23
+rect -20 -44 -15 -39
+rect -49 -68 -44 -63
+rect -44 -135 -39 -130
+rect -84 -162 -79 -157
+<< metal2 >>
+rect -103 3 -4 6
+rect -7 -4 -4 3
+rect -47 -7 -18 -4
+rect -82 -157 -79 -27
+rect -21 -39 -18 -7
+rect -9 -28 48 -25
+rect -21 -44 -20 -39
+rect -48 -135 -44 -68
+use nand2  nand2_0
+timestamp 1758926659
+transform 1 0 -82 0 1 -47
+box 10 -15 47 44
+use nand2  nand2_2
+timestamp 1758926659
+transform 0 1 8 1 0 -47
+box 10 -15 47 44
+use nand2  nand2_1
+timestamp 1758926659
+transform 0 1 -122 1 0 -45
+box 10 -15 47 44
+use xor2  xor2_1
+timestamp 1758932666
+transform 1 0 -23 0 1 -86
+box -12 -77 109 43
+use xor2  xor2_0
+timestamp 1758932666
+transform 1 0 -146 0 1 -85
+box -12 -77 109 43
+<< labels >>
+rlabel metal1 19 9 19 9 1 cout
+rlabel metal1 -41 -165 -41 -165 5 cin
+rlabel metal1 -162 -45 -162 -45 7 a
+rlabel metal1 -162 -161 -162 -161 7 b
+rlabel metal1 88 -105 88 -105 3 sum
+<< end >>
