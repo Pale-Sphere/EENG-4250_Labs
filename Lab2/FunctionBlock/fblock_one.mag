@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1759195415
+timestamp 1759197343
 << pwell >>
 rect 29 -14 31 -7
 rect 21 -16 29 -14
@@ -57,40 +57,40 @@ rect 81 -169 84 -4
 rect 192 -110 195 -31
 rect 93 -113 195 -110
 rect 192 -134 195 -113
-use NAND4In  NAND4In_0
-timestamp 1759194793
-transform 1 0 125 0 1 -86
-box -26 -28 66 34
-use inverter  inverter_0
-timestamp 1759158172
-transform -1 0 54 0 1 -6
-box -12 -10 34 16
-use functionBlock  functionBlock_2
+use functionBlock  functionBlock_1
 timestamp 1759152817
-transform 1 0 21 0 -1 -146
-box -26 -28 64 28
-use inverter  inverter_1
-timestamp 1759158172
-transform -1 0 33 0 1 -98
-box -12 -10 34 16
-use functionBlock  functionBlock_3
-timestamp 1759152817
-transform -1 0 163 0 -1 -146
+transform 1 0 20 0 1 -50
 box -26 -28 64 28
 use functionBlock  functionBlock_0
 timestamp 1759152817
 transform -1 0 163 0 1 -20
 box -26 -28 64 28
-use functionBlock  functionBlock_1
+use functionBlock  functionBlock_3
 timestamp 1759152817
-transform 1 0 20 0 1 -50
+transform -1 0 163 0 -1 -146
 box -26 -28 64 28
+use inverter  inverter_1
+timestamp 1759158172
+transform -1 0 33 0 1 -98
+box -12 -10 34 16
+use functionBlock  functionBlock_2
+timestamp 1759152817
+transform 1 0 21 0 -1 -146
+box -26 -28 64 28
+use inverter  inverter_0
+timestamp 1759158172
+transform -1 0 54 0 1 -6
+box -12 -10 34 16
+use NAND4In  NAND4In_0
+timestamp 1759194793
+transform 1 0 125 0 1 -86
+box -26 -28 66 34
 << labels >>
 rlabel metal1 88 -177 89 -176 5 A
 rlabel metal1 -16 -51 -14 -49 7 G0
-rlabel metal1 197 -21 199 -19 3 G1
-rlabel metal1 -15 -148 -12 -146 3 G2
 rlabel metal1 200 -147 201 -146 3 G3
 rlabel metal1 198 -29 199 -28 3 B
 rlabel metal1 206 -113 207 -112 7 O
+rlabel metal1 197 -21 199 -19 1 G2
+rlabel metal1 -15 -148 -12 -146 3 G1
 << end >>
