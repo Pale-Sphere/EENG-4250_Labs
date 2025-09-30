@@ -1,0 +1,47 @@
+ana A B G0 G1 G2 G3 O
+
+h Vdd!
+l GND!
+
+l G0
+l G1
+l G2
+h G3
+
+l A
+l B
+s
+
+h A
+s
+
+l A
+h B
+s
+
+h A
+s
+
+
+
+l G0
+h G1
+h G2
+h G3
+
+l A
+l B
+s
+
+h A
+s
+
+l A
+h B
+s
+
+h A
+s
+
+
+

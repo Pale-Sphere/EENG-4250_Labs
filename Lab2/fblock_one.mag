@@ -1,0 +1,96 @@
+magic
+tech scmos
+timestamp 1759195415
+<< pwell >>
+rect 29 -14 31 -7
+rect 21 -16 29 -14
+<< metal1 >>
+rect -9 15 193 18
+rect -9 -13 -6 15
+rect 62 -4 70 -1
+rect 190 -9 193 15
+rect 188 -12 193 -9
+rect -9 -16 23 -13
+rect -9 -39 -6 -16
+rect 188 -21 199 -18
+rect 187 -30 190 -27
+rect 195 -30 199 -27
+rect -9 -42 -3 -39
+rect 95 -48 132 -45
+rect -16 -51 -4 -48
+rect -9 -60 -3 -57
+rect -9 -105 -6 -60
+rect 95 -66 98 -48
+rect 95 -69 100 -66
+rect 51 -78 99 -75
+rect 52 -87 99 -84
+rect -9 -108 2 -105
+rect -9 -136 -6 -108
+rect 52 -118 55 -87
+rect 72 -113 88 -110
+rect 96 -118 99 -93
+rect 156 -114 207 -111
+rect 52 -120 54 -118
+rect 96 -121 132 -118
+rect -9 -139 -3 -136
+rect 187 -139 190 -136
+rect -15 -148 -1 -145
+rect 186 -148 201 -145
+rect -9 -157 -4 -154
+rect 186 -157 191 -154
+rect -9 -174 -6 -157
+rect 188 -174 191 -157
+rect -9 -177 191 -174
+<< m2contact >>
+rect 70 -5 75 0
+rect 190 -31 195 -26
+rect 44 -97 49 -92
+rect 67 -114 72 -109
+rect 88 -114 93 -109
+rect 190 -139 195 -134
+rect 80 -174 85 -169
+<< metal2 >>
+rect 75 -4 84 -1
+rect 49 -96 70 -93
+rect 67 -109 70 -96
+rect 81 -169 84 -4
+rect 192 -110 195 -31
+rect 93 -113 195 -110
+rect 192 -134 195 -113
+use NAND4In  NAND4In_0
+timestamp 1759194793
+transform 1 0 125 0 1 -86
+box -26 -28 66 34
+use inverter  inverter_0
+timestamp 1759158172
+transform -1 0 54 0 1 -6
+box -12 -10 34 16
+use functionBlock  functionBlock_2
+timestamp 1759152817
+transform 1 0 21 0 -1 -146
+box -26 -28 64 28
+use inverter  inverter_1
+timestamp 1759158172
+transform -1 0 33 0 1 -98
+box -12 -10 34 16
+use functionBlock  functionBlock_3
+timestamp 1759152817
+transform -1 0 163 0 -1 -146
+box -26 -28 64 28
+use functionBlock  functionBlock_0
+timestamp 1759152817
+transform -1 0 163 0 1 -20
+box -26 -28 64 28
+use functionBlock  functionBlock_1
+timestamp 1759152817
+transform 1 0 20 0 1 -50
+box -26 -28 64 28
+<< labels >>
+rlabel metal1 88 -177 89 -176 5 A
+rlabel metal1 -16 -51 -14 -49 7 G0
+rlabel metal1 197 -21 199 -19 3 G1
+rlabel metal1 -15 -148 -12 -146 3 G2
+rlabel metal1 200 -147 201 -146 3 G3
+rlabel metal1 198 -29 199 -28 3 B
+rlabel metal1 206 -113 207 -112 7 O
+<< end >>
