@@ -1,0 +1,768 @@
+﻿h Vdd!
+l GND!
+l A
+l B
+l C
+l D
+l E
+l F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h E
+l F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h D
+l E
+l F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h E
+l F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h C
+l D
+l E
+l F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h E
+l F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h D
+l E
+l F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h E
+l F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h B
+l C
+l D
+l E
+l F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h E
+l F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h D
+l E
+l F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h E
+l F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h C
+l D
+l E
+l F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h E
+l F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h D
+l E
+l F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h E
+l F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h A
+l B
+l C
+l D
+l E
+l F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h E
+l F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h D
+l E
+l F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h E
+l F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h C
+l D
+l E
+l F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h E
+l F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h D
+l E
+l F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h E
+l F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h B
+l C
+l D
+l E
+l F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h E
+l F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h D
+l E
+l F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h E
+l F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h C
+l D
+l E
+l F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h E
+l F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h D
+l E
+l F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h E
+l F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
+h F
+l G
+l H
+s
+h H
+s
+h G
+l H
+s
+h H
+s
