@@ -1,0 +1,12 @@
+h Vdd!
+l GND!
+
+l A B
+s
+h B
+s
+l B
+h A
+s
+h B
+s

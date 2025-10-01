@@ -1,0 +1,136 @@
+# IRSIM command file for shift unit exhaustive test
+stepsize 50
+ana a ad au s u o Vdd! GND!
+h Vdd!
+l GND!
+vector in a ad au s u
+vector out o
+
+set in 00000
+s
+d in o    # expected o=0
+
+set in 00001
+s
+d in o    # expected o=0
+
+set in 00010
+s
+d in o    # expected o=0
+
+set in 00011
+s
+d in o    # expected o=0
+
+set in 00100
+s
+d in o    # expected o=0
+
+set in 00101
+s
+d in o    # expected o=0
+
+set in 00110
+s
+d in o    # expected o=0
+
+set in 00111
+s
+d in o    # expected o=1
+
+set in 01000
+s
+d in o    # expected o=0
+
+set in 01001
+s
+d in o    # expected o=0
+
+set in 01010
+s
+d in o    # expected o=1
+
+set in 01011
+s
+d in o    # expected o=0
+
+set in 01100
+s
+d in o    # expected o=0
+
+set in 01101
+s
+d in o    # expected o=0
+
+set in 01110
+s
+d in o    # expected o=1
+
+set in 01111
+s
+d in o    # expected o=1
+
+set in 10000
+s
+d in o    # expected o=1
+
+set in 10001
+s
+d in o    # expected o=1
+
+set in 10010
+s
+d in o    # expected o=0
+
+set in 10011
+s
+d in o    # expected o=0
+
+set in 10100
+s
+d in o    # expected o=1
+
+set in 10101
+s
+d in o    # expected o=1
+
+set in 10110
+s
+d in o    # expected o=0
+
+set in 10111
+s
+d in o    # expected o=1
+
+set in 11000
+s
+d in o    # expected o=1
+
+set in 11001
+s
+d in o    # expected o=1
+
+set in 11010
+s
+d in o    # expected o=1
+
+set in 11011
+s
+d in o    # expected o=0
+
+set in 11100
+s
+d in o    # expected o=1
+
+set in 11101
+s
+d in o    # expected o=1
+
+set in 11110
+s
+d in o    # expected o=1
+
+set in 11111
+s
+d in o    # expected o=1
+
