@@ -1,0 +1,108 @@
+magic
+tech scmos
+timestamp 1759346336
+<< metal1 >>
+rect -230 222 221 225
+rect 226 222 684 225
+rect -228 214 212 217
+rect -228 156 -225 214
+rect 217 214 680 217
+rect -9 206 470 209
+rect 0 199 461 202
+rect 677 164 680 214
+rect 213 156 246 159
+rect 677 156 680 159
+rect -16 126 3 129
+rect 460 126 482 129
+rect 486 126 493 129
+rect -238 63 -228 66
+rect 220 63 228 66
+rect 685 63 695 66
+rect -230 29 -227 32
+rect -19 29 4 32
+rect 216 29 220 32
+rect 225 29 246 32
+rect 459 29 465 32
+rect 470 29 483 32
+rect 488 29 494 32
+rect 679 29 684 32
+rect -205 -9 -202 1
+rect 199 -7 202 2
+rect 259 -6 262 1
+rect 659 -6 662 2
+rect 692 -6 695 63
+<< m2contact >>
+rect -235 221 -230 226
+rect 221 221 226 226
+rect 684 221 689 226
+rect 212 213 217 218
+rect -14 205 -9 210
+rect -5 198 0 203
+rect 465 201 470 206
+rect 456 194 461 199
+rect 212 159 217 164
+rect 676 159 681 164
+rect -5 129 0 134
+rect 456 129 461 134
+rect -243 62 -238 67
+rect 228 62 233 67
+rect 237 62 242 67
+rect -235 28 -230 33
+rect -14 32 -9 37
+rect 220 28 225 33
+rect 465 28 470 33
+rect 684 28 689 33
+<< metal2 >>
+rect -242 -10 -239 62
+rect -234 33 -231 221
+rect -13 210 -10 229
+rect -220 -10 -217 38
+rect -13 37 -10 205
+rect -4 203 -1 229
+rect 213 218 216 229
+rect 222 226 225 229
+rect -4 134 -1 198
+rect 213 164 216 213
+rect 208 -7 211 38
+rect 221 33 224 221
+rect 457 134 460 194
+rect 229 -6 232 62
+rect 238 -6 241 62
+rect 249 -6 252 38
+rect 466 33 469 201
+rect 671 -6 674 39
+rect 685 33 688 221
+use fblock_one  fblock_one_3
+timestamp 1759197343
+transform 1 0 479 0 1 177
+box -16 -177 207 18
+use fblock_one  fblock_one_1
+timestamp 1759197343
+transform -1 0 -26 0 1 177
+box -16 -177 207 18
+use fblock_one  fblock_one_2
+timestamp 1759197343
+transform -1 0 444 0 1 177
+box -16 -177 207 18
+use fblock_one  fblock_one_0
+timestamp 1759197343
+transform 1 0 16 0 1 177
+box -16 -177 207 18
+<< labels >>
+rlabel metal1 -205 -9 -203 -7 1 a0
+rlabel metal2 -220 -10 -218 -8 1 b0
+rlabel metal2 -241 -9 -239 -7 2 f0
+rlabel metal2 222 227 224 229 5 g3
+rlabel metal2 -3 227 -1 229 5 g0
+rlabel metal2 -12 227 -10 229 5 g1
+rlabel metal1 200 -7 202 -5 1 a1
+rlabel metal2 209 -7 211 -5 1 b1
+rlabel metal2 230 -6 232 -4 1 f1
+rlabel metal2 239 -6 241 -4 1 f2
+rlabel metal2 250 -6 252 -4 1 b2
+rlabel metal1 260 -6 262 -4 1 a2
+rlabel metal1 660 -6 662 -4 1 a3
+rlabel metal2 672 -6 674 -4 1 b3
+rlabel metal1 693 -6 695 -4 8 f3
+rlabel metal2 213 227 215 229 1 g2
+<< end >>

@@ -1,0 +1,99 @@
+magic
+tech scmos
+timestamp 1759347006
+<< metal1 >>
+rect 1 512 4 514
+rect 23 512 26 514
+rect 38 507 41 513
+rect 442 504 445 512
+rect 451 508 454 510
+rect 472 508 475 510
+rect 481 508 484 510
+rect 492 508 495 510
+rect 502 502 505 510
+rect 902 503 905 510
+rect 914 508 917 510
+rect 935 504 938 510
+rect -5 266 238 269
+rect -5 259 229 262
+rect -5 251 464 254
+rect -5 241 455 244
+rect 38 -4 41 1
+rect 442 -3 445 3
+rect 451 -3 454 0
+rect 472 -3 475 0
+rect 481 -3 484 0
+rect 492 -3 495 0
+rect 502 -3 505 4
+rect 1 -9 4 -4
+rect 23 -9 26 -4
+rect 902 -5 905 11
+rect 914 -5 917 0
+rect 932 -5 935 7
+<< m2contact >>
+rect 0 507 5 512
+rect 22 507 27 512
+rect 450 503 455 508
+rect 471 503 476 508
+rect 480 503 485 508
+rect 491 503 496 508
+rect 913 503 918 508
+rect 238 265 243 270
+rect 229 258 234 263
+rect 464 250 469 255
+rect 455 240 460 245
+rect 0 -4 5 1
+rect 22 -4 27 1
+rect 450 0 455 5
+rect 471 0 476 5
+rect 480 0 485 5
+rect 491 0 496 5
+rect 913 0 918 5
+<< metal2 >>
+rect 230 263 233 295
+rect 239 270 242 294
+rect 230 235 233 258
+rect 239 236 242 265
+rect 456 245 459 293
+rect 465 255 468 292
+rect 456 239 459 240
+rect 465 238 468 250
+use fblock4  fblock4_0
+timestamp 1759346336
+transform 1 0 243 0 1 10
+box -243 -10 695 229
+use fblock4  fblock4_1
+timestamp 1759346336
+transform 1 0 243 0 -1 498
+box -243 -10 695 229
+<< labels >>
+rlabel metal1 452 -3 453 -2 5 b1
+rlabel space -473 -3 -472 -2 5 f1
+rlabel metal1 473 -3 474 -2 5 f1
+rlabel metal1 482 -3 483 -2 5 f2
+rlabel metal1 493 -3 494 -2 1 b2
+rlabel metal1 915 -5 916 -4 5 b3
+rlabel metal1 932 -5 935 7 5 f3
+rlabel metal1 914 508 917 510 5 b4
+rlabel metal1 502 502 505 504 1 a5
+rlabel metal1 493 509 494 510 1 b5
+rlabel metal1 482 509 483 510 1 f5
+rlabel metal1 473 509 474 510 1 f6
+rlabel metal1 452 509 453 510 1 b6
+rlabel metal1 443 504 444 505 1 a6
+rlabel metal1 2 -9 3 -8 1 f0
+rlabel metal1 24 -9 25 -8 5 b0
+rlabel metal1 39 -4 40 -3 5 a0
+rlabel metal1 2 513 3 514 5 f7
+rlabel metal1 24 513 25 514 5 b7
+rlabel metal1 39 512 40 513 1 a7
+rlabel metal1 6 267 7 268 7 g0
+rlabel metal1 6 260 7 261 1 g1
+rlabel metal1 6 252 7 253 7 g3
+rlabel metal1 6 242 7 243 7 g2
+rlabel metal1 442 -3 445 -2 5 a1
+rlabel metal1 502 -3 505 -1 5 a2
+rlabel metal1 902 -5 905 -4 5 a3
+rlabel metal1 902 509 905 510 1 a4
+rlabel metal1 935 508 938 510 1 f4
+<< end >>

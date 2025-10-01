@@ -57,15 +57,15 @@ rect 81 -169 84 -4
 rect 192 -110 195 -31
 rect 93 -113 195 -110
 rect 192 -134 195 -113
-use functionBlock  functionBlock_1
+use NAND3  NAND3_1
 timestamp 1759152817
 transform 1 0 20 0 1 -50
 box -26 -28 64 28
-use functionBlock  functionBlock_0
+use NAND3  NAND3_0
 timestamp 1759152817
 transform -1 0 163 0 1 -20
 box -26 -28 64 28
-use functionBlock  functionBlock_3
+use NAND3  NAND3_3
 timestamp 1759152817
 transform -1 0 163 0 -1 -146
 box -26 -28 64 28
@@ -73,7 +73,7 @@ use inverter  inverter_1
 timestamp 1759158172
 transform -1 0 33 0 1 -98
 box -12 -10 34 16
-use functionBlock  functionBlock_2
+use NAND3  NAND3_2
 timestamp 1759152817
 transform 1 0 21 0 -1 -146
 box -26 -28 64 28
@@ -81,7 +81,7 @@ use inverter  inverter_0
 timestamp 1759158172
 transform -1 0 54 0 1 -6
 box -12 -10 34 16
-use NAND4In  NAND4In_0
+use NAND4  NAND4_0
 timestamp 1759194793
 transform 1 0 125 0 1 -86
 box -26 -28 66 34

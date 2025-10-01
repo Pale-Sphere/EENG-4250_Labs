@@ -1,0 +1,24 @@
+ana a0 a1 a2 a3 a4 a5 a6 a7
+ana b0 b1 b2 b3 b4 b5 b6 b7
+ana f0 f1 f2 f3 f4 f5 f6 f7
+ana g0 g1 g2 g3
+
+h Vdd!
+l GND!
+
+l g0
+l g1
+l g2
+h g3
+
+l a0 a1 a2 a3 a4 a5 a6 a7
+l b0 b1 b2 b3 b4 b5 b6 b7
+s
+
+h a0 a1 a2 a3 a4 a5 a6 a7
+h b0 b1 b2 b3 b4 b5 b6 b7
+s
+
+l a0 a3 a5 a6
+l b1 b4 b5 
+s
