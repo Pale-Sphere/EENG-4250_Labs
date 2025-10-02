@@ -1,0 +1,106 @@
+magic
+tech scmos
+timestamp 1759367978
+<< metal1 >>
+rect -10 144 141 147
+rect 290 144 567 147
+rect 128 137 268 140
+rect 273 137 412 140
+rect 417 137 556 140
+rect 561 137 567 140
+rect -10 130 -7 133
+rect -2 130 132 133
+rect 146 130 277 133
+rect 291 130 421 133
+rect 435 130 567 133
+rect -10 123 501 126
+rect 62 116 66 123
+rect 208 116 211 123
+rect 353 116 356 123
+rect 498 116 501 123
+rect -2 91 0 95
+rect 118 91 140 95
+rect 262 91 285 94
+rect 408 91 430 95
+rect 553 91 567 95
+rect -7 33 2 37
+rect 116 33 123 37
+rect 137 34 146 37
+rect 263 33 268 36
+rect 282 33 293 36
+rect 407 33 412 36
+rect 426 33 438 36
+rect 549 33 556 37
+rect 18 -2 21 5
+rect 163 -5 166 7
+rect 308 -3 311 7
+rect 453 -7 456 7
+<< m2contact >>
+rect 141 143 146 148
+rect 285 143 290 148
+rect 123 136 128 141
+rect 268 136 273 141
+rect 412 136 417 141
+rect 556 136 561 141
+rect -7 129 -2 134
+rect 132 129 137 134
+rect 141 129 146 134
+rect 277 129 282 134
+rect 286 129 291 134
+rect 421 129 426 134
+rect 430 129 435 134
+rect -7 91 -2 96
+rect 140 90 145 95
+rect 285 90 290 95
+rect 430 91 435 96
+rect 123 33 128 38
+rect 132 33 137 38
+rect 268 33 273 38
+rect 277 33 282 38
+rect 412 33 417 38
+rect 421 33 426 38
+rect 556 33 561 38
+<< metal2 >>
+rect -6 96 -3 129
+rect 124 38 127 136
+rect 142 134 145 143
+rect 133 38 136 129
+rect 142 95 145 129
+rect 269 38 272 136
+rect 286 134 289 143
+rect 278 38 281 129
+rect 286 95 289 129
+rect 413 38 416 136
+rect 422 38 425 129
+rect 431 96 434 129
+rect 557 38 560 136
+use shift_one  shift_one_0
+timestamp 1759365894
+transform 1 0 20 0 1 37
+box -20 -37 98 85
+use shift_one  shift_one_1
+timestamp 1759365894
+transform 1 0 165 0 1 37
+box -20 -37 98 85
+use shift_one  shift_one_2
+timestamp 1759365894
+transform 1 0 310 0 1 37
+box -20 -37 98 85
+use shift_one  shift_one_3
+timestamp 1759365894
+transform 1 0 455 0 1 37
+box -20 -37 98 85
+<< labels >>
+rlabel metal1 -10 124 -9 125 3 s
+rlabel metal1 19 -2 19 -2 1 o0
+rlabel metal1 163 -5 166 -2 1 o1
+rlabel metal1 309 -2 309 -2 1 o2
+rlabel metal1 454 -6 455 -5 1 o3
+rlabel metal1 561 137 567 140 3 u
+rlabel metal1 -10 131 -9 132 7 a0
+rlabel metal1 -10 145 -9 145 7 a1
+rlabel metal1 566 145 567 145 3 a2
+rlabel metal1 566 131 567 131 3 a3
+rlabel metal1 566 92 567 93 7 ci
+rlabel metal1 -7 34 -6 35 3 ci
+<< end >>
