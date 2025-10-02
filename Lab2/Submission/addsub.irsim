@@ -1,0 +1,82 @@
+# Lightweight IRSIM test: general + edge/corner cases
+
+ana a0 a1 a2 a3 a4 a5 a6 a7 b0 b1 b2 b3 b4 b5 b6 b7 cin s0 s1 s2 s3 s4 s5 s6 s7 cout Vdd! GND!
+h Vdd!
+l GND!
+stepsize 20
+
+# Vector in pins aligned MSB-first to netlist
+vector in a7 a6 a5 a4 a3 a2 a1 a0 b7 b6 b5 b4 b3 b2 b1 b0 cin
+
+# Vector out pins aligned MSB-first to netlist
+vector out s7 s6 s5 s4 s3 s2 s1 s0 cout
+
+# --- General additions ---
+# 0 + 0 = 0
+set in 00000000000000000
+s
+assert out 000000000
+
+# 5 + 3 = 8
+set in 00000101000000110
+s
+assert out 000010000
+
+# 12 + 15 = 27
+set in 00001100000011110
+s
+assert out 000110110
+
+# --- General subtractions ---
+# 7 - 2 = 5
+set in 00000111000000101
+s
+assert out 000001011
+
+# 3 - 5 = 254 (underflow)
+set in 00000011000001011
+s
+assert out 111111100
+
+# --- Edge cases: zero and max values ---
+# 0 + 255 = 255
+set in 00000000111111110
+s
+assert out 111111110
+
+# 255 + 1 = 0 (with carry-out)
+set in 11111111000000010
+s
+assert out 000000001
+
+# 255 - 0 = 255
+set in 11111111000000001
+s
+assert out 111111111
+
+# 0 - 1 = 255 (underflow)
+set in 00000000000000011
+s
+assert out 111111110
+
+# --- Corner cases: maximum carry-out ---
+# 128 + 128 = 0 (with carry-out)
+set in 10000000100000000
+s
+assert out 000000001
+
+# 127 + 1 = 128
+set in 01111111000000010
+s
+assert out 100000000
+
+# --- Corner cases: two’s complement behavior ---
+# 0 - 0 = 0
+set in 00000000000000001
+s
+assert out 000000001
+
+# 255 - 255 = 0
+set in 11111111111111111
+s
+assert out 000000001
