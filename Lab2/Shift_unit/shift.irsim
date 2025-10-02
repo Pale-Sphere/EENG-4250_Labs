@@ -4,8 +4,8 @@ h Vdd!
 l GND!
 
 
-h a0 a2 a4 a6
-l a1 a3 a5 a7
+h a0 a2 a6 a7
+l a1 a3 a4 a5
 h a3:
 l s
 l u
