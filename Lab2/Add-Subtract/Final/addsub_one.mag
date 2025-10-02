@@ -1,0 +1,110 @@
+magic
+tech scmos
+timestamp 1759365271
+<< metal1 >>
+rect 17 -2 21 10
+rect -53 -7 -52 -3
+rect -137 -12 -134 -11
+rect -136 -43 -133 -12
+rect -7 -11 -3 -9
+rect -41 -16 -16 -13
+rect -82 -22 -78 -20
+rect 48 -23 52 -22
+rect -39 -28 -14 -25
+rect -128 -32 -124 -29
+rect -119 -32 -116 -29
+rect 8 -34 13 -33
+rect 37 -39 40 -32
+rect -163 -46 -129 -43
+rect -49 -62 -46 -61
+rect -49 -63 -45 -62
+rect -19 -71 -17 -68
+rect -21 -77 -18 -75
+rect -38 -78 -18 -77
+rect -38 -80 -20 -78
+rect -112 -93 -100 -90
+rect -38 -103 -35 -80
+rect -40 -106 -35 -103
+rect 86 -107 90 -104
+rect -74 -125 -63 -122
+rect -39 -133 -11 -132
+rect -39 -135 -10 -133
+rect -114 -154 -102 -151
+rect -81 -154 -70 -151
+rect -163 -162 -125 -159
+rect -88 -162 -84 -159
+rect -42 -166 -39 -135
+rect -13 -136 -10 -135
+rect 8 -155 19 -152
+<< m2contact >>
+rect -130 -6 -125 -1
+rect -105 -2 -100 3
+rect -88 -8 -83 -3
+rect -52 -7 -47 -2
+rect -7 -9 -2 -4
+rect -70 -15 -65 -10
+rect -16 -16 -11 -11
+rect 42 -14 47 -9
+rect -82 -27 -77 -22
+rect -14 -28 -9 -23
+rect 48 -28 53 -23
+rect -124 -34 -119 -29
+rect -92 -33 -87 -28
+rect 8 -39 13 -34
+rect -20 -44 -15 -39
+rect 35 -44 40 -39
+rect -62 -57 -57 -52
+rect -49 -68 -44 -63
+rect -44 -135 -39 -130
+rect -84 -162 -79 -157
+<< metal2 >>
+rect -103 3 -4 6
+rect -83 -6 -67 -3
+rect -70 -10 -67 -6
+rect -23 -4 -20 -3
+rect -47 -7 -20 -4
+rect -124 -37 -109 -34
+rect -112 -90 -109 -37
+rect -92 -47 -89 -33
+rect -82 -157 -79 -27
+rect -73 -65 -70 -10
+rect -23 -44 -20 -7
+rect -7 -4 -4 3
+rect -11 -14 42 -13
+rect -11 -16 46 -14
+rect -9 -28 48 -25
+rect 13 -39 14 -34
+rect -61 -120 -58 -57
+rect -70 -123 -58 -120
+rect -48 -135 -44 -68
+rect 11 -91 14 -39
+rect 33 -44 35 -40
+rect 33 -49 36 -44
+rect -70 -154 16 -151
+use nand2  nand2_1
+timestamp 1758926659
+transform 0 1 -122 1 0 -45
+box 10 -15 47 44
+use nand2  nand2_2
+timestamp 1758926659
+transform 0 1 8 1 0 -47
+box 10 -15 47 44
+use nand2  nand2_0
+timestamp 1758926659
+transform 1 0 -82 0 1 -47
+box 10 -15 47 44
+use xor2  xor2_0
+timestamp 1759304367
+transform 1 0 -146 0 1 -85
+box -12 -77 109 43
+use xor2  xor2_1
+timestamp 1759304367
+transform 1 0 -23 0 1 -86
+box -12 -77 109 43
+<< labels >>
+rlabel metal1 19 9 19 9 1 cout
+rlabel metal1 -41 -165 -41 -165 5 cin
+rlabel metal1 -162 -45 -162 -45 7 a
+rlabel metal1 -162 -161 -162 -161 7 b
+rlabel metal1 88 -105 88 -105 3 sum
+<< end >>

@@ -1,0 +1,22 @@
+h Vdd!
+l GND!
+
+l a b cin
+s
+h cin
+s
+l cin
+h b
+s
+h cin
+s
+l b cin
+h a
+s
+h cin
+s
+l cin
+h b
+s
+h cin
+s
