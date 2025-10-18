@@ -1,0 +1,19 @@
+magic
+tech scmos
+timestamp 1760749159
+<< metal2 >>
+rect -424 249 -421 260
+rect -376 252 -373 259
+rect -276 255 -273 263
+rect -424 112 -421 132
+rect -376 117 -373 130
+rect -326 117 -323 129
+rect -276 125 -273 134
+use fblock1  fblock1_0
+array 0 0 219 0 7 127
+timestamp 1760748767
+transform 1 0 -534 0 1 114
+box 61 -110 280 17
+<< labels >>
+rlabel space -473 -3 -472 -2 5 f1
+<< end >>
