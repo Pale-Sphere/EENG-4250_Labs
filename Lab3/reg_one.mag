@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1759915057
+timestamp 1760830470
 << nwell >>
 rect 0 -20 72 26
 << pwell >>
@@ -35,44 +35,75 @@ rect 8 -5 15 0
 rect 41 -5 48 0
 rect 8 -14 13 -9
 rect 41 -14 46 -9
+<< psubstratepcontact >>
+rect 50 -41 54 -37
+<< nsubstratencontact >>
+rect 64 6 68 10
 << polysilicon >>
+rect 50 39 52 49
+rect 25 1 52 3
 rect 5 -8 8 -6
 rect 15 -8 18 -6
-rect 25 -8 27 3
+rect 25 -8 27 1
+rect 58 -5 63 -3
 rect 38 -8 41 -6
 rect 48 -8 51 -6
-rect 5 -32 7 -8
+rect 5 -17 7 -8
 rect 38 -17 40 -8
+rect 6 -22 7 -17
+rect 5 -32 7 -22
 rect 38 -32 40 -22
 rect 5 -34 8 -32
 rect 13 -34 16 -32
 rect 38 -34 41 -32
 rect 46 -34 49 -32
 << polycontact >>
+rect 50 49 55 54
+rect 63 -5 68 0
+rect 1 -22 6 -17
 rect 35 -22 40 -17
 << metal1 >>
+rect 50 54 53 55
+rect 65 54 68 55
+rect 59 9 60 11
+rect 59 8 64 9
+rect 60 6 64 8
+rect 15 -3 41 0
+rect 0 -22 1 -18
 rect 9 -19 12 -14
 rect 9 -22 19 -19
 rect 43 -19 46 -14
 rect 43 -22 55 -19
+rect 64 -21 72 -18
 rect 9 -26 12 -22
 rect 43 -26 46 -22
+rect 13 -41 41 -38
+rect 46 -41 50 -38
 << m2contact >>
+rect 63 49 68 54
+rect 58 -5 63 0
 rect 30 -22 35 -17
 << metal2 >>
 rect 19 0 22 6
+rect 65 0 68 49
 rect 19 -3 33 0
 rect 30 -17 33 -3
-use trans  trans_1
-timestamp 1759912654
-transform 1 0 55 0 1 -15
-box -9 -22 17 14
+rect 63 -3 68 0
+use staticizer  staticizer_0
+timestamp 1760828743
+transform 1 0 13 0 -1 43
+box -13 -11 50 43
 use trans  trans_0
 timestamp 1759912654
 transform 1 0 22 0 1 -15
 box -9 -22 17 14
-use staticizer  staticizer_0
-timestamp 1759913846
-transform 1 0 13 0 -1 43
-box -13 -9 39 43
+use trans  trans_1
+timestamp 1759912654
+transform 1 0 55 0 1 -15
+box -9 -22 17 14
+<< labels >>
+rlabel metal1 70 -21 72 -18 3 out
+rlabel metal1 0 -22 1 -18 7 in
+rlabel metal1 50 54 53 55 1 w
+rlabel metal1 65 54 68 55 1 r
 << end >>
