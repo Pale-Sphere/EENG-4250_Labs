@@ -1,0 +1,78 @@
+magic
+tech scmos
+timestamp 1759915057
+<< nwell >>
+rect 0 -20 72 26
+<< pwell >>
+rect 52 26 72 52
+rect 0 -47 72 -20
+rect 54 -48 72 -47
+<< ntransistor >>
+rect 8 -34 13 -32
+rect 41 -34 46 -32
+<< ptransistor >>
+rect 8 -8 15 -6
+rect 41 -8 48 -6
+<< ndiffusion >>
+rect 8 -32 13 -31
+rect 41 -32 46 -31
+rect 8 -36 13 -34
+rect 41 -36 46 -34
+<< pdiffusion >>
+rect 8 -6 15 -5
+rect 41 -6 48 -5
+rect 8 -9 15 -8
+rect 13 -14 15 -9
+rect 41 -9 48 -8
+rect 46 -14 48 -9
+<< ndcontact >>
+rect 8 -31 13 -26
+rect 41 -31 46 -26
+rect 8 -41 13 -36
+rect 41 -41 46 -36
+<< pdcontact >>
+rect 8 -5 15 0
+rect 41 -5 48 0
+rect 8 -14 13 -9
+rect 41 -14 46 -9
+<< polysilicon >>
+rect 5 -8 8 -6
+rect 15 -8 18 -6
+rect 25 -8 27 3
+rect 38 -8 41 -6
+rect 48 -8 51 -6
+rect 5 -32 7 -8
+rect 38 -17 40 -8
+rect 38 -32 40 -22
+rect 5 -34 8 -32
+rect 13 -34 16 -32
+rect 38 -34 41 -32
+rect 46 -34 49 -32
+<< polycontact >>
+rect 35 -22 40 -17
+<< metal1 >>
+rect 9 -19 12 -14
+rect 9 -22 19 -19
+rect 43 -19 46 -14
+rect 43 -22 55 -19
+rect 9 -26 12 -22
+rect 43 -26 46 -22
+<< m2contact >>
+rect 30 -22 35 -17
+<< metal2 >>
+rect 19 0 22 6
+rect 19 -3 33 0
+rect 30 -17 33 -3
+use trans  trans_1
+timestamp 1759912654
+transform 1 0 55 0 1 -15
+box -9 -22 17 14
+use trans  trans_0
+timestamp 1759912654
+transform 1 0 22 0 1 -15
+box -9 -22 17 14
+use staticizer  staticizer_0
+timestamp 1759913846
+transform 1 0 13 0 -1 43
+box -13 -9 39 43
+<< end >>
