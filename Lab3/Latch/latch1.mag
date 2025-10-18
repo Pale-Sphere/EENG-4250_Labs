@@ -1,0 +1,79 @@
+magic
+tech scmos
+timestamp 1760800426
+<< nwell >>
+rect 3 33 43 51
+<< pwell >>
+rect 3 51 43 68
+<< ntransistor >>
+rect 23 58 25 61
+rect 29 58 31 61
+<< ptransistor >>
+rect 23 39 25 45
+rect 29 39 31 45
+<< ndiffusion >>
+rect 22 58 23 61
+rect 25 58 29 61
+rect 31 58 32 61
+<< pdiffusion >>
+rect 19 44 23 45
+rect 22 39 23 44
+rect 25 39 29 45
+rect 31 44 35 45
+rect 31 39 32 44
+<< ndcontact >>
+rect 17 57 22 62
+rect 32 57 37 62
+<< pdcontact >>
+rect 17 39 22 44
+rect 32 39 37 44
+<< psubstratepcontact >>
+rect 6 56 11 61
+<< nsubstratencontact >>
+rect 6 39 11 44
+<< polysilicon >>
+rect 14 64 25 66
+rect 14 27 16 64
+rect 23 63 25 64
+rect 29 61 31 66
+rect 23 55 25 58
+rect 23 45 25 48
+rect 29 45 31 58
+rect 23 27 25 39
+rect 29 36 31 39
+<< polycontact >>
+rect 13 66 18 71
+rect 29 66 34 71
+rect 29 31 34 36
+rect 13 22 18 27
+rect 22 22 27 27
+<< polynplus >>
+rect 23 61 25 63
+<< metal1 >>
+rect 3 56 6 59
+rect 11 58 17 61
+rect 37 58 43 61
+rect 40 54 43 58
+rect 40 51 46 54
+rect 3 39 6 42
+rect 11 40 17 43
+rect 40 43 43 51
+rect 37 40 43 43
+rect 2 32 29 35
+<< m2contact >>
+rect 13 71 18 76
+rect 13 17 18 22
+rect 22 17 27 22
+<< metal2 >>
+rect 14 76 17 123
+rect 23 22 26 123
+rect 14 -4 17 17
+rect 23 -4 26 17
+<< labels >>
+rlabel metal1 3 57 4 58 3 GND!
+rlabel metal1 3 40 4 41 3 Vdd!
+rlabel metal1 2 33 3 34 3 in
+rlabel metal2 24 -4 25 -3 1 nCLK
+rlabel metal2 15 -4 16 -3 1 CLK
+rlabel metal1 45 52 46 53 7 out
+<< end >>
