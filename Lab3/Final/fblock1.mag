@@ -1,0 +1,107 @@
+magic
+tech scmos
+timestamp 1761183832
+<< polycontact >>
+rect 81 -10 86 -5
+rect 143 -10 148 -5
+<< metal1 >>
+rect 61 -14 72 -11
+rect 183 -13 189 -10
+rect 61 -46 66 -43
+rect 63 -96 66 -46
+rect 69 -90 72 -14
+rect 157 -26 235 -23
+rect 157 -37 160 -26
+rect 245 -31 248 -27
+rect 115 -40 160 -37
+rect 163 -34 248 -31
+rect 163 -40 166 -34
+rect 254 -37 257 -27
+rect 213 -40 257 -37
+rect 115 -43 118 -40
+rect 213 -41 216 -40
+rect 263 -41 266 -27
+rect 276 -76 279 10
+rect 276 -79 282 -76
+rect 139 -82 144 -79
+rect 92 -90 95 -82
+rect 140 -88 143 -82
+rect 69 -93 139 -90
+rect 190 -90 193 -87
+rect 240 -90 243 -82
+rect 190 -93 243 -90
+rect 63 -99 76 -96
+rect 81 -99 100 -96
+rect 105 -99 198 -96
+rect 134 -107 148 -104
+rect 153 -107 248 -104
+<< m2contact >>
+rect 76 -10 81 -5
+rect 129 -14 134 -9
+rect 138 -10 143 -5
+rect 189 -14 194 -9
+rect 100 -87 105 -82
+rect 109 -87 114 -82
+rect 148 -87 153 -82
+rect 157 -87 162 -82
+rect 189 -87 194 -82
+rect 198 -87 203 -82
+rect 207 -87 212 -82
+rect 139 -93 144 -88
+rect 248 -87 253 -82
+rect 257 -87 262 -82
+rect 76 -101 81 -96
+rect 100 -101 105 -96
+rect 198 -101 203 -96
+rect 129 -107 134 -102
+rect 148 -107 153 -102
+rect 248 -107 253 -102
+<< metal2 >>
+rect 77 -96 80 -10
+rect 110 -82 113 17
+rect 101 -96 104 -87
+rect 110 -110 113 -87
+rect 130 -102 133 -14
+rect 139 -88 142 -10
+rect 158 -82 161 17
+rect 190 -82 193 -14
+rect 208 -82 211 17
+rect 258 -82 261 17
+rect 149 -102 152 -87
+rect 158 -110 161 -87
+rect 199 -96 202 -87
+rect 208 -110 211 -87
+rect 249 -102 252 -87
+rect 258 -110 261 -87
+use inverter  inverter_0
+timestamp 1760727402
+transform 1 0 96 0 1 -11
+box -10 -9 33 23
+use inverter  inverter_1
+timestamp 1760727402
+transform 1 0 150 0 1 -11
+box -10 -9 33 23
+use NAND3  NAND3_0
+timestamp 1760717179
+transform 0 -1 145 1 0 -67
+box -15 -28 27 22
+use NAND3  NAND3_1
+timestamp 1760717179
+transform 0 -1 97 1 0 -67
+box -15 -28 27 22
+use NAND3  NAND3_2
+timestamp 1760717179
+transform 0 -1 195 1 0 -67
+box -15 -28 27 22
+use NAND3  NAND3_3
+timestamp 1760717179
+transform 0 -1 245 1 0 -67
+box -15 -28 27 22
+use NAND4  NAND4_0
+timestamp 1760731588
+transform 0 -1 192 1 0 -19
+box -9 -87 36 -26
+<< labels >>
+rlabel metal1 75 -92 76 -91 3 a
+rlabel metal1 75 -98 76 -97 7 b
+<< end >>

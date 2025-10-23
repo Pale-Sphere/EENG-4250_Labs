@@ -1,0 +1,25 @@
+magic
+tech scmos
+timestamp 1761174676
+<< polycontact >>
+rect 24 -44 29 -39
+<< metal1 >>
+rect 5 13 11 16
+rect 5 -40 8 13
+rect 21 -1 24 12
+rect 5 -43 24 -40
+<< m2contact >>
+rect 11 12 16 17
+rect 20 12 25 17
+use inverter  inverter_0
+timestamp 1760727402
+transform 0 1 23 1 0 -30
+box -10 -9 33 23
+use latch1  latch1_0
+array 0 0 44 0 7 127
+timestamp 1760800426
+transform 1 0 -2 0 1 12
+box 2 -4 46 123
+<< labels >>
+rlabel metal1 5 -43 7 -41 1 CLK
+<< end >>

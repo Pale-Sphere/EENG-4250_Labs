@@ -1,0 +1,146 @@
+magic
+tech scmos
+timestamp 1759812102
+<< metal1 >>
+rect -157 988 2 991
+rect -157 956 -146 959
+rect -1 956 2 988
+rect -12 947 10 950
+rect -8 922 -3 927
+rect 307 923 312 926
+rect -13 906 9 909
+rect 160 889 164 891
+rect 100 886 164 889
+rect -157 861 2 864
+rect -157 829 -146 832
+rect -1 829 2 861
+rect -13 820 9 823
+rect -8 795 -3 800
+rect 307 796 312 799
+rect -13 779 9 782
+rect 160 762 164 763
+rect 100 759 164 762
+rect -157 734 2 737
+rect -157 702 -146 705
+rect -1 702 2 734
+rect -13 693 9 696
+rect -6 668 -3 673
+rect 307 669 312 672
+rect -12 652 10 655
+rect 160 635 164 637
+rect 100 632 164 635
+rect -157 607 2 610
+rect -157 575 -146 578
+rect -1 575 2 607
+rect -13 566 9 569
+rect -7 541 -3 546
+rect 307 542 312 545
+rect -11 525 11 528
+rect 160 508 164 509
+rect 100 505 164 508
+rect -157 480 2 483
+rect -157 448 -146 451
+rect -1 448 2 480
+rect -13 439 9 442
+rect -8 414 -3 419
+rect 307 415 312 418
+rect -14 398 8 401
+rect 160 381 164 383
+rect 100 378 164 381
+rect -157 353 2 356
+rect -157 321 -146 324
+rect -1 321 2 353
+rect -13 312 9 315
+rect -5 287 -3 292
+rect 307 288 312 291
+rect -12 271 10 274
+rect 160 254 164 255
+rect 100 251 164 254
+rect -157 226 2 229
+rect -157 194 -146 197
+rect -1 194 2 226
+rect -12 185 10 188
+rect -6 160 -3 165
+rect 307 161 312 164
+rect -14 144 8 147
+rect 160 127 164 128
+rect 100 124 164 127
+rect -157 99 2 102
+rect -157 67 -146 70
+rect -1 67 2 99
+rect -11 58 11 61
+rect -6 33 -3 38
+rect 307 34 312 37
+rect -13 17 10 20
+<< m2contact >>
+rect -3 922 2 927
+rect -146 892 -141 897
+rect -3 892 2 897
+rect -3 795 2 800
+rect -146 765 -141 770
+rect -3 765 2 770
+rect -3 668 2 673
+rect -146 638 -141 643
+rect -3 638 2 643
+rect -3 541 2 546
+rect -146 511 -141 516
+rect -3 511 2 516
+rect -3 414 2 419
+rect -146 384 -141 389
+rect -3 384 2 389
+rect -3 287 2 292
+rect -146 257 -141 262
+rect -3 257 2 262
+rect -3 160 2 165
+rect -146 130 -141 135
+rect -3 130 2 135
+rect -3 33 2 38
+rect -146 3 -141 8
+rect -3 3 2 8
+<< metal2 >>
+rect -2 897 1 922
+rect -144 770 -141 892
+rect -2 770 1 795
+rect -144 643 -141 765
+rect -2 643 1 668
+rect -144 516 -141 638
+rect -2 516 1 541
+rect -144 389 -141 511
+rect -2 389 1 414
+rect -144 262 -141 384
+rect -2 262 1 287
+rect -144 135 -141 257
+rect -2 135 1 160
+rect -144 8 -141 130
+rect -2 8 1 33
+rect -144 -2 -141 3
+rect 155 -2 158 8
+rect -144 -5 158 -2
+use xor2  xor2_0
+array 0 0 153 0 7 127
+timestamp 1759807071
+transform 1 0 -152 0 1 9
+box -2 -6 151 61
+use addsub_one  addsub_one_0
+array 0 0 311 0 7 127
+timestamp 1759808728
+transform 1 0 0 0 1 2
+box -1 -2 310 125
+<< labels >>
+rlabel metal1 -157 67 -155 70 7 b0
+rlabel metal1 -157 99 -155 102 7 a0
+rlabel metal1 -157 194 -155 197 7 b1
+rlabel metal1 -157 226 -155 229 7 a1
+rlabel metal1 -157 321 -155 324 7 b2
+rlabel metal1 -157 353 -155 356 7 a2
+rlabel metal1 -157 448 -155 451 7 b3
+rlabel metal1 -157 480 -155 483 7 a3
+rlabel metal1 -157 575 -155 578 7 b4
+rlabel metal1 -157 607 -155 610 7 a4
+rlabel metal1 -157 702 -155 705 7 b5
+rlabel metal1 -157 734 -155 737 7 a5
+rlabel metal1 -157 829 -155 832 7 b6
+rlabel metal1 -157 861 -155 864 7 a6
+rlabel metal1 -157 956 -155 959 7 b7
+rlabel metal1 -157 988 -155 991 7 a7
+<< end >>
