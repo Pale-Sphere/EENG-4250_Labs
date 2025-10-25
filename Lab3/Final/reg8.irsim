@@ -1,5 +1,5 @@
 # display our inputs and outptus for port 0
-ana in0 in1 in2 in3 in4 in5 in6 in7 w r0 r1 p00 p01 p02 p03 p04 p05 p06 p07 
+ana in0 in1 in2 in3 in4 in5 in6 in7 w r0 p00 p01 p02 p03 p04 p05 p06 p07 
 
 h Vdd!
 l GND!
@@ -70,7 +70,7 @@ s
 # read what was written (output should match input)
 h r0
 l w 
-
+s
 # change inputs (output should stay the same as write is off)
 l in0
 l in1
@@ -80,10 +80,10 @@ l in4
 l in5
 l in6
 l in7 
+s
 
-#-----------------------------------------------------------------
-# display our inputs and outptus for port 1
-ana in0 in1 in2 in3 in4 in5 in6 in7 w r0 r1 p10 p11 p12 p13 p14 p15 p16 p17 
+#---------------------------------------
+ana r1 in1  p10 p11 p12 p13 p14 p15 p16 p17 
 
 h Vdd!
 l GND!
@@ -111,12 +111,12 @@ s
 # ------------------------------------
 # check if written
 l w
-h r0
+h r1
 s
 
 # ------------------------------------
 # Write all ones
-l r0
+l r1
 h w 
 
 h in0
@@ -131,7 +131,7 @@ s
 #-------------------------------------
 # Read this write (all outputs should be 1)
 l w
-h r0
+h r1
 s
 
 #--------------------------------------
@@ -147,14 +147,14 @@ l in7
 s
 #-----------------------------------------
 # write these random values
-l r0
+l r1
 h w 
 s
 #-------------------------------------
 # read what was written (output should match input)
-h r0
+h r1
 l w 
-
+s
 # change inputs (output should stay the same as write is off)
 l in0
 l in1
@@ -164,3 +164,4 @@ l in4
 l in5
 l in6
 l in7 
+s
