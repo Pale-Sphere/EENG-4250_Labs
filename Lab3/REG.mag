@@ -1,0 +1,230 @@
+magic
+tech scmos
+timestamp 1761355670
+<< nwell >>
+rect -15 51 78 78
+rect -15 -3 78 24
+<< pwell >>
+rect -15 78 78 105
+rect -15 24 78 51
+<< ntransistor >>
+rect 8 88 10 95
+<< ptransistor >>
+rect 8 60 10 67
+<< ndiffusion >>
+rect 2 93 8 95
+rect 7 88 8 93
+rect 10 93 16 95
+rect 10 88 11 93
+<< pdiffusion >>
+rect 7 62 8 67
+rect 2 60 8 62
+rect 10 62 11 67
+rect 10 60 16 62
+<< ndcontact >>
+rect 2 88 7 93
+rect 11 88 16 93
+<< pdcontact >>
+rect 2 62 7 67
+rect 11 62 16 67
+<< polysilicon >>
+rect 35 103 37 112
+rect 8 101 37 103
+rect 8 95 10 101
+rect 35 91 37 101
+rect 49 91 51 112
+rect 63 91 65 112
+rect 8 84 10 88
+rect 8 67 10 70
+rect 8 57 10 60
+rect 35 51 37 64
+rect 8 49 37 51
+rect 8 46 10 49
+rect 49 46 51 65
+rect 43 44 51 46
+rect 63 44 65 66
+rect 8 14 10 18
+rect 43 14 45 18
+rect 63 14 65 18
+<< polycontact >>
+rect 35 112 40 117
+rect 49 112 54 117
+rect 63 112 68 117
+rect -15 76 -10 81
+rect 18 75 23 80
+rect 6 70 11 75
+rect -15 21 -10 26
+rect 18 21 23 26
+<< metal1 >>
+rect 35 117 38 118
+rect 49 117 52 118
+rect 63 117 66 118
+rect -9 106 71 109
+rect -9 99 -6 106
+rect 26 99 29 106
+rect 40 99 43 106
+rect 54 99 57 106
+rect 68 99 71 106
+rect 0 88 2 91
+rect 16 88 17 91
+rect 0 87 3 88
+rect -4 84 3 87
+rect 14 80 17 88
+rect 26 84 29 85
+rect -4 67 -3 72
+rect 14 75 18 80
+rect 40 80 43 86
+rect 54 80 57 86
+rect 68 80 71 86
+rect 14 67 17 75
+rect 26 71 29 79
+rect 40 72 43 75
+rect 54 72 57 75
+rect 68 72 71 75
+rect -1 64 2 67
+rect 16 64 17 67
+rect -9 55 71 58
+rect -9 45 29 48
+rect 35 44 58 47
+rect 0 34 3 35
+rect -4 31 3 34
+rect 35 34 38 44
+rect 55 37 58 44
+rect 29 31 38 34
+rect 80 35 81 38
+rect -16 22 -15 25
+rect 16 21 18 26
+rect 69 22 72 25
+rect -5 14 1 17
+rect 29 14 35 17
+rect 72 15 73 18
+rect 35 5 38 12
+rect 55 5 58 13
+rect -9 1 29 4
+rect 35 2 58 5
+<< m2contact >>
+rect -20 76 -15 81
+rect 6 75 11 80
+rect -3 67 2 72
+rect 26 79 31 84
+rect 38 75 43 80
+rect 52 75 57 80
+rect 66 75 71 80
+rect 11 31 16 36
+rect 46 31 51 36
+rect 75 33 80 38
+<< metal2 >>
+rect -18 84 30 87
+rect -18 81 -15 84
+rect 6 72 41 75
+rect -2 64 5 67
+rect 2 35 5 64
+rect 38 63 41 72
+rect 31 60 41 63
+rect 2 32 11 35
+rect 31 26 34 60
+rect 52 56 55 75
+rect 66 56 69 75
+rect 11 23 34 26
+rect 39 53 55 56
+rect 63 53 69 56
+rect 39 22 42 53
+rect 51 31 53 36
+rect 50 12 53 31
+rect 63 26 66 53
+rect 75 12 78 33
+rect 50 9 78 12
+use inv_small  inv_small_0
+timestamp 1761354304
+transform 1 0 1 0 1 0
+box -13 4 -2 45
+use inv_small  inv_small_1
+timestamp 1761354304
+transform 1 0 34 0 1 0
+box -13 4 -2 45
+use inv_small  inv_small_2
+timestamp 1761354304
+transform 1 0 1 0 1 54
+box -13 4 -2 45
+use inv_small  inv_small_3
+timestamp 1761354304
+transform 1 0 34 0 1 54
+box -13 4 -2 45
+use inv_small  inv_small_4
+timestamp 1761354304
+transform 1 0 48 0 1 54
+box -13 4 -2 45
+use inv_small  inv_small_5
+timestamp 1761354304
+transform 1 0 62 0 1 54
+box -13 4 -2 45
+use inv_small  inv_small_6
+timestamp 1761354304
+transform 1 0 76 0 1 54
+box -13 4 -2 45
+use inv_small  inv_small_7
+timestamp 1761354304
+transform 1 0 1 0 1 0
+box -13 4 -2 45
+use inv_small  inv_small_8
+timestamp 1761354304
+transform 1 0 34 0 1 0
+box -13 4 -2 45
+use inv_small  inv_small_9
+timestamp 1761354304
+transform 1 0 1 0 1 54
+box -13 4 -2 45
+use inv_small  inv_small_10
+timestamp 1761354304
+transform 1 0 48 0 1 54
+box -13 4 -2 45
+use inv_small  inv_small_11
+timestamp 1761354304
+transform 1 0 34 0 1 54
+box -13 4 -2 45
+use inv_small  inv_small_12
+timestamp 1761354304
+transform 1 0 76 0 1 54
+box -13 4 -2 45
+use inv_small  inv_small_13
+timestamp 1761354304
+transform 1 0 62 0 1 54
+box -13 4 -2 45
+use trans_gate  trans_gate_0
+timestamp 1761354448
+transform 1 0 5 0 1 -2
+box -5 5 12 48
+use trans_gate  trans_gate_1
+timestamp 1761354448
+transform 1 0 40 0 1 -2
+box -5 5 12 48
+use trans_gate  trans_gate_2
+timestamp 1761354448
+transform 1 0 60 0 1 -2
+box -5 5 12 48
+use trans_gate  trans_gate_3
+timestamp 1761354448
+transform 1 0 5 0 1 -2
+box -5 5 12 48
+use trans_gate  trans_gate_4
+timestamp 1761354448
+transform 1 0 40 0 1 -2
+box -5 5 12 48
+use trans_gate  trans_gate_5
+timestamp 1761354448
+transform 1 0 60 0 1 -2
+box -5 5 12 48
+<< labels >>
+rlabel metal1 35 117 38 118 1 w
+rlabel metal1 49 117 52 118 1 r0
+rlabel metal1 63 117 66 118 1 r1
+rlabel metal1 -9 45 8 48 1 GND!
+rlabel metal1 -9 1 11 4 5 Vdd!
+rlabel metal1 -9 106 11 109 1 GND!
+rlabel metal1 -9 55 11 58 5 Vdd!
+rlabel metal1 -16 22 -15 25 7 in
+rlabel metal1 72 15 73 18 3 port1
+rlabel metal1 80 35 81 38 3 port0
+rlabel metal1 14 73 17 77 7 stat_2
+rlabel nwell 0 21 2 23 1 test
+<< end >>
