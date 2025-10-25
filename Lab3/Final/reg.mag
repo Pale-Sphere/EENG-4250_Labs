@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1761424049
+timestamp 1761417841
 << metal1 >>
 rect 35 1055 38 1060
 rect 49 1055 52 1060
@@ -103,7 +103,7 @@ rect 46 170 49 292
 rect 60 170 63 292
 use reg_one  reg_one_0
 array 0 0 72 0 7 127
-timestamp 1761423021
+timestamp 1761417458
 transform 1 0 0 0 1 48
 box -16 -3 81 118
 << labels >>
@@ -133,5 +133,4 @@ rlabel metal1 81 1005 82 1008 3 p07
 rlabel metal1 35 1059 38 1060 1 w
 rlabel metal1 49 1059 52 1060 1 r0
 rlabel metal1 63 1059 66 1060 1 r1
-rlabel metal1 81 370 82 373 7 p02
 << end >>
