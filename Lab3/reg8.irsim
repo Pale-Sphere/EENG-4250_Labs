@@ -1,0 +1,166 @@
+# display our inputs and outptus for port 0
+ana in0 in1 in2 in3 in4 in5 in6 in7 w r0 r1 p00 p01 p02 p03 p04 p05 p06 p07 
+
+h Vdd!
+l GND!
+
+# Initialize inputs
+l in0
+l in1
+l in2
+l in3
+l in4
+l in5
+l in6
+l in7
+
+l w
+l r0
+l r1
+s
+
+# ------------------------------------
+# Test writing all 0s
+h w
+s
+
+# ------------------------------------
+# check if written
+l w
+h r0
+s
+
+# ------------------------------------
+# Write all ones
+l r0
+h w 
+
+h in0
+h in1
+h in2
+h in3
+h in4
+h in5
+h in6
+h in7 
+s
+#-------------------------------------
+# Read this write (all outputs should be 1)
+l w
+h r0
+s
+
+#--------------------------------------
+# Make random reg values (out should not change)
+l in0
+h in1
+h in2
+l in3
+l in4
+h in5
+h in6
+l in7 
+s
+#-----------------------------------------
+# write these random values
+l r0
+h w 
+s
+#-------------------------------------
+# read what was written (output should match input)
+h r0
+l w 
+
+# change inputs (output should stay the same as write is off)
+l in0
+l in1
+l in2
+l in3
+l in4
+l in5
+l in6
+l in7 
+
+#-----------------------------------------------------------------
+# display our inputs and outptus for port 1
+ana in0 in1 in2 in3 in4 in5 in6 in7 w r0 r1 p10 p11 p12 p13 p14 p15 p16 p17 
+
+h Vdd!
+l GND!
+
+# Initialize inputs
+l in0
+l in1
+l in2
+l in3
+l in4
+l in5
+l in6
+l in7
+
+l w
+l r0
+l r1
+s
+
+# ------------------------------------
+# Test writing all 0s
+h w
+s
+
+# ------------------------------------
+# check if written
+l w
+h r0
+s
+
+# ------------------------------------
+# Write all ones
+l r0
+h w 
+
+h in0
+h in1
+h in2
+h in3
+h in4
+h in5
+h in6
+h in7 
+s
+#-------------------------------------
+# Read this write (all outputs should be 1)
+l w
+h r0
+s
+
+#--------------------------------------
+# Make random reg values (out should not change)
+l in0
+h in1
+h in2
+l in3
+l in4
+h in5
+h in6
+l in7 
+s
+#-----------------------------------------
+# write these random values
+l r0
+h w 
+s
+#-------------------------------------
+# read what was written (output should match input)
+h r0
+l w 
+
+# change inputs (output should stay the same as write is off)
+l in0
+l in1
+l in2
+l in3
+l in4
+l in5
+l in6
+l in7 
