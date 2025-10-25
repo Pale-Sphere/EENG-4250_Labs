@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1761346835
+timestamp 1761352478
 << nwell >>
 rect -15 51 78 78
 rect -15 -3 78 24
@@ -41,6 +41,9 @@ rect 8 46 10 52
 rect 49 46 51 65
 rect 43 44 51 46
 rect 63 44 65 66
+rect 8 14 10 18
+rect 43 14 45 18
+rect 63 14 65 18
 << polycontact >>
 rect 35 112 40 117
 rect 49 112 54 117
@@ -167,4 +170,6 @@ rlabel metal1 -9 55 11 58 5 Vdd!
 rlabel metal1 -16 22 -15 25 7 in
 rlabel metal1 72 15 73 18 3 port1
 rlabel metal1 80 35 81 38 3 port0
+rlabel metal1 0 73 3 77 3 staticizer
+rlabel metal1 14 73 17 77 7 stat_2
 << end >>
