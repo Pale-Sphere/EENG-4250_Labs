@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1761355670
+timestamp 1761356081
 << nwell >>
 rect -15 51 78 78
 rect -15 -3 78 24
@@ -28,15 +28,13 @@ rect 11 88 16 93
 rect 2 62 7 67
 rect 11 62 16 67
 << polysilicon >>
-rect 35 103 37 112
-rect 8 101 37 103
-rect 8 95 10 101
-rect 35 91 37 101
+rect 8 95 10 97
+rect 35 91 37 112
 rect 49 91 51 112
 rect 63 91 65 112
 rect 8 84 10 88
 rect 8 67 10 70
-rect 8 57 10 60
+rect 8 51 10 60
 rect 35 51 37 64
 rect 8 49 37 51
 rect 8 46 10 49
@@ -50,9 +48,9 @@ rect 63 14 65 18
 rect 35 112 40 117
 rect 49 112 54 117
 rect 63 112 68 117
+rect 8 97 13 102
 rect -15 76 -10 81
 rect 18 75 23 80
-rect 6 70 11 75
 rect -15 21 -10 26
 rect 18 21 23 26
 << metal1 >>
@@ -71,18 +69,18 @@ rect 0 87 3 88
 rect -4 84 3 87
 rect 14 80 17 88
 rect 26 84 29 85
-rect -4 67 -3 72
 rect 14 75 18 80
 rect 40 80 43 86
 rect 54 80 57 86
 rect 68 80 71 86
-rect 14 67 17 75
+rect 14 72 17 75
+rect -4 67 2 70
+rect -1 64 2 67
+rect 16 64 17 72
 rect 26 71 29 79
 rect 40 72 43 75
 rect 54 72 57 75
 rect 68 72 71 75
-rect -1 64 2 67
-rect 16 64 17 67
 rect -9 55 71 58
 rect -9 45 29 48
 rect 35 44 58 47
@@ -103,10 +101,10 @@ rect 55 5 58 13
 rect -9 1 29 4
 rect 35 2 58 5
 << m2contact >>
+rect 3 97 8 102
 rect -20 76 -15 81
-rect 6 75 11 80
-rect -3 67 2 72
 rect 26 79 31 84
+rect 11 67 16 72
 rect 38 75 43 80
 rect 52 75 57 80
 rect 66 75 71 80
@@ -114,12 +112,13 @@ rect 11 31 16 36
 rect 46 31 51 36
 rect 75 33 80 38
 << metal2 >>
+rect 8 97 41 100
 rect -18 84 30 87
 rect -18 81 -15 84
-rect 6 72 41 75
-rect -2 64 5 67
-rect 2 35 5 64
-rect 38 63 41 72
+rect 38 80 41 97
+rect 2 67 11 70
+rect 2 35 5 67
+rect 38 63 41 75
 rect 31 60 41 63
 rect 2 32 11 35
 rect 31 26 34 60
