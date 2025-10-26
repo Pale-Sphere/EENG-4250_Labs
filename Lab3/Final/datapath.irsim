@@ -2,7 +2,7 @@
 
 ana in0 in1 in2 in3 in4 in5 in6 in7 out0 out1 out2 out3 out4 out5 out6 clk0 clk1 clk2 clk3 clk4 cin g0 g1 g2 g3 u s w0 r00 r10 w1 r01 r11
 vector in in0 in1 in2 in3 in4 in5 in6 in7
-vector out out0 out1 out2 out3 out4 out5 out5 out6 out7
+vector out out0 out1 out2 out3 out4 out5 out6 out7
 vector rx rx0 rx1 rx2 rx3 rx4 rx5 rx6 rx7
 vector ry ry0 ry1 ry2 ry3 ry4 ry5 ry6 ry7
 vector wz wz0 wz1 wz2 wz3 wz4 wz5 wz6 wz7
