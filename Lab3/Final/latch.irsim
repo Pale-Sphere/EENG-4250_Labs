@@ -1,0 +1,51 @@
+# display our inputs and outptus 
+ana in0 in1 in2 in3 in4 in5 in6 in7 CLK out0 out1 out2 out3 out4 out5 out6 out7 
+
+h Vdd!
+l GND!
+
+# Initialize inputs
+l in0
+l in1
+l in2
+l in3
+l in4
+l in5
+l in6
+l in7
+
+l CLK
+s
+#-----------------------
+# 
+h CLK 
+s
+
+
+#-----------------------
+# change the inputs
+h in0
+h in1
+h in2
+h in3
+h in4
+h in5
+h in6
+h in7
+
+l CLK
+s
+
+#--------------------
+# let the singals through
+h CLK
+s
+
+#--------------------
+# stop the singals
+l CLK
+s
+
+
+
+
