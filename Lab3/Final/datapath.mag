@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1761418471
+timestamp 1761446639
 << error_s >>
 rect 1617 973 1618 974
 rect 1729 973 1731 974
@@ -634,4 +634,28 @@ rlabel metal1 1571 1030 1574 1031 1 w0
 rlabel metal1 1684 1030 1687 1031 1 w1
 rlabel metal1 1698 1030 1701 1031 1 r01
 rlabel metal1 1712 1030 1715 1031 1 r11
+rlabel metal3 973 974 976 977 1 rx0
+rlabel metal3 973 942 976 945 1 ry0
+rlabel metal3 973 928 976 931 1 wz0
+rlabel metal3 971 847 974 850 1 rx1
+rlabel metal3 970 815 973 818 1 ry1
+rlabel metal3 970 801 973 804 1 wz1
+rlabel metal3 969 720 972 723 1 rx2
+rlabel metal3 969 688 972 691 1 ry2
+rlabel metal3 970 674 973 677 1 wz2
+rlabel metal3 968 593 971 596 1 rx3
+rlabel metal3 967 561 970 564 1 ry3
+rlabel metal3 972 547 975 550 1 wz3
+rlabel metal3 968 466 971 469 1 rx4
+rlabel metal3 971 434 974 437 1 ry4
+rlabel metal3 971 420 974 423 1 wz4
+rlabel metal3 971 339 974 342 1 rx5
+rlabel metal3 969 307 972 310 1 ry5
+rlabel metal3 973 293 976 296 1 wz5
+rlabel metal3 971 212 974 215 1 rx6
+rlabel metal3 970 180 973 183 1 ry6
+rlabel metal3 969 166 972 169 1 wz6
+rlabel metal3 968 85 971 88 1 rx7
+rlabel metal3 973 53 976 56 1 ry7
+rlabel metal3 975 39 978 42 1 wz7
 << end >>
