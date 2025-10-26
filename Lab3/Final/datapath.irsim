@@ -1,0 +1,66 @@
+# Analyzer and vector intitialization
+
+ana in0 in1 in2 in3 in4 in5 in6 in7 out0 out1 out2 out3 out4 out5 out6 clk0 clk1 clk2 clk3 clk4 cin g0 g1 g2 g3 u s w0 r00 r10 w1 r01 r11
+vector in in0 in1 in2 in3 in4 in5 in6 in7
+vector out out0 out1 out2 out3 out4 out5 out5 out6 out7
+vector rx rx0 rx1 rx2 rx3 rx4 rx5 rx6 rx7
+vector ry ry0 ry1 ry2 ry3 ry4 ry5 ry6 ry7
+vector wz wz0 wz1 wz2 wz3 wz4 wz5 wz6 wz7
+vector clk clk0 clk1 clk2 clk3 clk4
+vector G g0 g1 g2 g3
+vector reg w0 w1 r00 r10 r01 r11
+
+
+stepsize 50ns
+
+# Write initial values and c-signals
+h Vdd!
+l GND!
+set G 0000
+l cin u s
+
+# Write values to registers
+
+set in 11111111
+set clk 10000
+set reg 1000000
+s
+assert wz 11111111
+
+set clk 00000
+set reg 0000000
+set in 00000000
+s
+set clk 10000
+set reg 010000
+s
+assert wz 00000000
+
+set clk 10001
+s
+
+
+
+# Test Addition
+
+set clk 00000
+set reg 001001
+s
+assert rx 11111111
+assert ry 00000000
+set clk 00011
+s
+assert wz 11111111
+
+# Reading the output of reg1
+
+set clk 00001
+set reg 000010
+s
+
+assert out 00000000
+
+
+
+
+
