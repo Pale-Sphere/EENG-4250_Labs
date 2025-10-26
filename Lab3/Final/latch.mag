@@ -1,25 +1,59 @@
 magic
 tech scmos
-timestamp 1761174676
+timestamp 1761436504
 << polycontact >>
 rect 24 -44 29 -39
 << metal1 >>
+rect 46 950 50 954
+rect -1 933 2 936
+rect 46 823 50 827
+rect -1 806 2 809
+rect 46 696 50 700
+rect -1 679 2 682
+rect 46 569 50 573
+rect -1 552 2 555
+rect 46 442 50 446
+rect -1 425 2 428
+rect 46 315 50 319
+rect -1 298 2 301
+rect 46 188 50 192
+rect -1 171 2 174
+rect 46 61 50 65
+rect -1 44 2 47
 rect 5 13 11 16
 rect 5 -40 8 13
 rect 21 -1 24 12
 rect 5 -43 24 -40
+rect 5 -44 8 -43
 << m2contact >>
 rect 11 12 16 17
 rect 20 12 25 17
-use inverter  inverter_0
-timestamp 1760727402
-transform 0 1 23 1 0 -30
-box -10 -9 33 23
 use latch1  latch1_0
 array 0 0 44 0 7 127
-timestamp 1760800426
+timestamp 1761186944
 transform 1 0 -2 0 1 12
-box 2 -4 46 123
+box 2 -4 51 123
+use inverter  inverter_0
+timestamp 1760924514
+transform 0 1 23 1 0 -30
+box -10 -9 33 23
 << labels >>
 rlabel metal1 5 -43 7 -41 1 CLK
+rlabel metal1 46 61 50 65 7 out0
+rlabel metal1 46 188 50 192 7 out1
+rlabel metal1 46 315 50 319 7 out2
+rlabel metal1 46 442 50 446 7 out3
+rlabel metal1 46 569 50 573 7 out4
+rlabel metal1 46 696 50 700 7 out5
+rlabel metal1 46 823 50 827 7 out6
+rlabel metal1 46 950 50 954 7 out7
+rlabel metal1 5 -44 8 -41 1 CLK
+rlabel metal1 -1 44 2 47 3 in0
+rlabel metal1 -1 171 2 174 3 in1
+rlabel metal1 -1 298 2 301 3 in2
+rlabel metal1 -1 425 2 428 3 in3
+rlabel metal1 -1 552 2 555 3 in4
+rlabel metal1 -1 679 2 682 3 in5
+rlabel metal1 -1 806 2 809 3 in6
+rlabel metal1 -1 933 2 936 3 in7
 << end >>
