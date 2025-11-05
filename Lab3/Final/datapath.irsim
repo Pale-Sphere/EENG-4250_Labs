@@ -59,8 +59,3 @@ set reg 000010
 s
 
 assert out 00000000
-
-
-
-
-

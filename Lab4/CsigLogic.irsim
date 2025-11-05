@@ -1,0 +1,38 @@
+
+
+# set vectors
+vector STATE S2 S1 S0
+
+ana STATE Lin g0 g1 g2 g3 Lf u s Ls w0 r00 r10 w1 r01 r11 Lo 
+
+
+h Vdd!
+l GND!
+setvector STATE 000
+
+#Test the state machine
+setvector STATE 000
+s 
+
+setvector STATE 001
+s 
+
+setvector STATE 010
+s 
+
+setvector STATE 011
+s 
+
+setvector STATE 100
+s 
+
+setvector STATE 101
+s 
+setvector STATE 000
+s
+
+setvector STATE 110
+s 
+
+setvector STATE 111
+
