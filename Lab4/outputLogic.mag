@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1762398015
+timestamp 1762411171
 << nwell >>
 rect 946 -44 972 -23
 << pwell >>
@@ -22,6 +22,8 @@ rect 1183 -19 1185 -5
 rect 933 -31 935 -25
 rect 962 -30 964 -19
 rect 1215 -31 1217 -22
+rect 1312 -31 1314 -22
+rect 1321 -30 1323 -24
 rect 300 -45 304 -40
 rect 88 -64 90 -59
 rect 97 -64 99 -59
@@ -68,6 +70,10 @@ rect 1095 -66 1097 -61
 rect 1121 -66 1123 -61
 rect 1130 -66 1132 -61
 rect 1139 -66 1141 -61
+rect 1353 -66 1355 -58
+rect 1362 -66 1364 -58
+rect 1394 -66 1396 -58
+rect 1403 -66 1405 -58
 << polycontact >>
 rect 356 -3 361 2
 rect 51 -14 56 -9
@@ -90,6 +96,7 @@ rect 1162 -17 1167 -12
 rect 932 -25 937 -20
 rect 1214 -22 1219 -17
 rect 1275 -23 1280 -18
+rect 1310 -22 1315 -17
 rect 304 -45 309 -40
 rect 87 -69 92 -64
 rect 96 -69 101 -64
@@ -130,6 +137,7 @@ rect 868 -70 873 -65
 rect 992 -70 997 -65
 rect 1001 -70 1006 -65
 rect 1010 -70 1015 -65
+rect 1320 -64 1325 -59
 rect 1031 -71 1036 -66
 rect 1040 -71 1045 -66
 rect 1049 -71 1054 -66
@@ -142,8 +150,10 @@ rect 1137 -71 1142 -66
 rect 1240 -71 1245 -66
 rect 1249 -71 1254 -66
 rect 1284 -71 1289 -66
-rect 1310 -71 1315 -66
-rect 1319 -71 1324 -66
+rect 1351 -71 1356 -66
+rect 1361 -71 1366 -66
+rect 1392 -71 1397 -66
+rect 1402 -71 1407 -66
 << metal1 >>
 rect 9 28 12 30
 rect 9 25 35 28
@@ -225,15 +235,18 @@ rect 1226 -46 1229 -2
 rect 1303 -5 1306 17
 rect 1271 -8 1306 -5
 rect 1317 -11 1320 18
+rect 1350 -9 1353 17
 rect 1289 -14 1320 -11
+rect 1335 -12 1353 -9
 rect 1254 -21 1275 -18
 rect 1254 -34 1257 -21
 rect 1289 -34 1292 -14
-rect 1350 -20 1353 17
-rect 1324 -23 1353 -20
-rect 1324 -33 1327 -23
+rect 1315 -20 1376 -17
 rect 619 -52 636 -49
 rect 979 -54 989 -51
+rect 1325 -47 1330 -44
+rect 1373 -44 1376 -20
+rect 1357 -47 1376 -44
 rect 1068 -54 1071 -51
 rect 242 -61 264 -58
 rect 277 -61 286 -58
@@ -263,7 +276,7 @@ rect 508 -91 511 -68
 rect 533 -100 536 -70
 rect 542 -82 545 -70
 rect 551 -91 554 -70
-rect 587 -118 590 -70
+rect 587 -128 590 -70
 rect 640 -74 643 -69
 rect 649 -82 652 -69
 rect 658 -91 661 -69
@@ -272,6 +285,8 @@ rect 688 -92 691 -65
 rect 712 -110 715 -62
 rect 720 -83 723 -65
 rect 744 -101 747 -62
+rect 1407 -60 1410 -49
+rect 1325 -63 1410 -60
 rect 752 -74 755 -65
 rect 780 -91 783 -70
 rect 789 -82 792 -70
@@ -294,15 +309,19 @@ rect 1138 -100 1141 -71
 rect 1241 -91 1244 -71
 rect 1250 -82 1253 -71
 rect 1285 -74 1288 -71
-rect 1311 -109 1314 -71
-rect 1320 -100 1323 -71
+rect 1352 -82 1355 -71
+rect 1362 -74 1365 -71
+rect 1393 -91 1396 -71
+rect 1403 -74 1406 -71
 rect 76 -141 78 -138
 << m2contact >>
 rect 116 -6 121 -1
 rect 117 -54 122 -49
 rect 1064 27 1069 32
 rect 1266 -10 1271 -5
+rect 1330 -14 1335 -9
 rect 1063 -55 1068 -50
+rect 1330 -47 1335 -42
 rect 1265 -55 1270 -50
 rect 96 -87 101 -82
 rect 105 -105 110 -100
@@ -324,6 +343,9 @@ rect 541 -87 546 -82
 rect 550 -96 555 -91
 rect 532 -105 537 -100
 rect 498 -114 503 -109
+rect 289 -123 294 -118
+rect 419 -123 424 -118
+rect 445 -123 450 -118
 rect 639 -79 644 -74
 rect 648 -87 653 -82
 rect 657 -96 662 -91
@@ -347,19 +369,20 @@ rect 1084 -87 1089 -82
 rect 1119 -96 1124 -91
 rect 1093 -105 1098 -100
 rect 1284 -79 1289 -74
+rect 1361 -79 1366 -74
 rect 1249 -87 1254 -82
+rect 1351 -87 1356 -82
+rect 1402 -79 1407 -74
 rect 1240 -96 1245 -91
+rect 1392 -96 1397 -91
 rect 1137 -105 1142 -100
 rect 1319 -105 1324 -100
 rect 1128 -114 1133 -109
 rect 1310 -114 1315 -109
-rect 289 -123 294 -118
-rect 419 -123 424 -118
-rect 445 -123 450 -118
-rect 586 -123 591 -118
 rect 679 -123 684 -118
 rect 1049 -123 1054 -118
 rect 1075 -123 1080 -118
+rect 586 -133 591 -128
 rect 78 -142 83 -137
 rect 245 -142 250 -137
 << pm12contact >>
@@ -370,6 +393,7 @@ rect 118 -49 121 -6
 rect 1064 -50 1067 27
 rect 1202 -46 1205 -2
 rect 1266 -50 1269 -10
+rect 1331 -42 1334 -14
 rect 86 -78 174 -75
 rect 179 -78 401 -75
 rect 406 -78 463 -75
@@ -380,7 +404,9 @@ rect 756 -78 868 -75
 rect 873 -78 1010 -75
 rect 1015 -78 1031 -75
 rect 1036 -78 1284 -75
-rect 1289 -78 1327 -75
+rect 1289 -78 1361 -75
+rect 1366 -78 1402 -75
+rect 1407 -78 1417 -75
 rect 85 -86 96 -83
 rect 101 -86 410 -83
 rect 415 -86 454 -83
@@ -393,7 +419,8 @@ rect 838 -86 1001 -83
 rect 1006 -86 1040 -83
 rect 1045 -86 1084 -83
 rect 1089 -86 1249 -83
-rect 1254 -86 1327 -83
+rect 1254 -86 1351 -83
+rect 1356 -86 1417 -83
 rect 85 -95 149 -92
 rect 154 -95 507 -92
 rect 512 -95 550 -92
@@ -404,7 +431,8 @@ rect 784 -95 824 -92
 rect 829 -95 992 -92
 rect 997 -95 1119 -92
 rect 1124 -95 1240 -92
-rect 1245 -95 1327 -92
+rect 1245 -95 1392 -92
+rect 1397 -95 1417 -92
 rect 86 -104 105 -101
 rect 110 -104 131 -101
 rect 136 -104 532 -101
@@ -426,53 +454,44 @@ rect 92 -122 192 -119
 rect 197 -122 289 -119
 rect 294 -122 419 -119
 rect 424 -122 445 -119
-rect 450 -122 586 -119
-rect 591 -122 679 -119
+rect 450 -122 679 -119
 rect 684 -122 1049 -119
 rect 1054 -122 1075 -119
 rect 1080 -122 1328 -119
-rect 83 -132 590 -129
+rect 83 -132 586 -129
 rect 83 -141 245 -138
 use AND2  AND2_0
-timestamp 1762393336
+timestamp 1762411146
 transform 1 0 -4 0 1 -4
 box -7 -10 46 26
-use NOR3  NOR3_15
-timestamp 1762304029
-transform -1 0 153 0 1 -53
-box -11 -15 33 40
-use NOR3  NOR3_14
-timestamp 1762304029
-transform -1 0 109 0 1 -53
-box -11 -15 33 40
-use inverter  inverter_5
-timestamp 1760727402
-transform 0 1 18 -1 0 -31
-box -10 -9 33 23
 use NOR2  NOR2_7
 timestamp 1762323609
 transform -1 0 61 0 1 -27
 box -15 -39 20 8
-use AND2  AND2_2
-timestamp 1762393336
-transform 1 0 215 0 1 -51
-box -7 -10 46 26
-use AND2  AND2_1
-timestamp 1762393336
-transform -1 0 307 0 1 -51
-box -7 -10 46 26
+use inverter  inverter_5
+timestamp 1760727402
+transform 0 1 18 -1 0 -31
+box -10 -9 33 23
+use NOR3  NOR3_14
+timestamp 1762304029
+transform -1 0 109 0 1 -53
+box -11 -15 33 40
+use NOR3  NOR3_15
+timestamp 1762304029
+transform -1 0 153 0 1 -53
+box -11 -15 33 40
 use NOR3  NOR3_2
 timestamp 1762304029
 transform 1 0 175 0 1 -53
 box -11 -15 33 40
-use NOR3  NOR3_16
-timestamp 1762304029
-transform -1 0 467 0 1 -52
-box -11 -15 33 40
-use NOR3  NOR3_17
-timestamp 1762304029
-transform -1 0 423 0 1 -52
-box -11 -15 33 40
+use AND2  AND2_2
+timestamp 1762411146
+transform 1 0 215 0 1 -51
+box -7 -10 46 26
+use AND2  AND2_1
+timestamp 1762411146
+transform -1 0 307 0 1 -51
+box -7 -10 46 26
 use NOR3  NOR3_0
 timestamp 1762304029
 transform -1 0 379 0 1 -52
@@ -481,46 +500,46 @@ use inverter  inverter_0
 timestamp 1760727402
 transform 0 1 323 -1 0 -30
 box -10 -9 33 23
-use AND2  AND2_3
-timestamp 1762393336
-transform 1 0 573 0 1 -50
-box -7 -10 46 26
-use NOR3  NOR3_7
+use NOR3  NOR3_17
 timestamp 1762304029
-transform 1 0 533 0 1 -52
+transform -1 0 423 0 1 -52
+box -11 -15 33 40
+use NOR3  NOR3_16
+timestamp 1762304029
+transform -1 0 467 0 1 -52
 box -11 -15 33 40
 use NOR3  NOR3_1
 timestamp 1762304029
 transform -1 0 511 0 1 -52
 box -11 -15 33 40
-use NOR3  NOR3_8
+use NOR3  NOR3_7
 timestamp 1762304029
-transform 1 0 780 0 1 -54
+transform 1 0 533 0 1 -52
 box -11 -15 33 40
-use inverter  inverter_1
+use AND2  AND2_3
+timestamp 1762411146
+transform 1 0 573 0 1 -50
+box -7 -10 46 26
+use NOR3  NOR3_3
+timestamp 1762304029
+transform 1 0 640 0 1 -52
+box -11 -15 33 40
+use inverter  inverter_7
 timestamp 1760727402
-transform 0 1 746 -1 0 -32
+transform 0 1 682 -1 0 -32
 box -10 -9 33 23
 use inverter  inverter_6
 timestamp 1760727402
 transform 0 1 714 -1 0 -32
 box -10 -9 33 23
-use inverter  inverter_7
+use inverter  inverter_1
 timestamp 1760727402
-transform 0 1 682 -1 0 -32
+transform 0 1 746 -1 0 -32
 box -10 -9 33 23
-use NOR3  NOR3_3
+use NOR3  NOR3_8
 timestamp 1762304029
-transform 1 0 640 0 1 -52
+transform 1 0 780 0 1 -54
 box -11 -15 33 40
-use inverter  inverter_2
-timestamp 1760727402
-transform 0 -1 938 -1 0 -32
-box -10 -9 33 23
-use NOR2  NOR2_1
-timestamp 1762323609
-transform 1 0 898 0 1 -28
-box -15 -39 20 8
 use NOR2  NOR2_2
 timestamp 1762323609
 transform 1 0 863 0 1 -28
@@ -529,46 +548,62 @@ use NOR2  NOR2_3
 timestamp 1762323609
 transform 1 0 828 0 1 -28
 box -15 -39 20 8
-use NOR3  NOR3_12
+use NOR2  NOR2_1
+timestamp 1762323609
+transform 1 0 898 0 1 -28
+box -15 -39 20 8
+use inverter  inverter_2
+timestamp 1760727402
+transform 0 -1 938 -1 0 -32
+box -10 -9 33 23
+use inverter  inverter_3
+timestamp 1760727402
+transform 0 1 959 -1 0 -32
+box -10 -9 33 23
+use NOR3  NOR3_9
 timestamp 1762304029
-transform 1 0 1076 0 1 -54
+transform 1 0 993 0 1 -54
 box -11 -15 33 40
 use NOR3  NOR3_13
 timestamp 1762304029
 transform 1 0 1032 0 1 -54
 box -11 -15 33 40
-use NOR3  NOR3_9
+use NOR3  NOR3_12
 timestamp 1762304029
-transform 1 0 993 0 1 -54
-box -11 -15 33 40
-use inverter  inverter_3
-timestamp 1760727402
-transform 0 1 959 -1 0 -32
-box -10 -9 33 23
-use NOR2  NOR2_5
-timestamp 1762323609
-transform 1 0 1279 0 1 -28
-box -15 -39 20 8
-use NOR2  NOR2_4
-timestamp 1762323609
-transform 1 0 1244 0 1 -28
-box -15 -39 20 8
-use inverter  inverter_4
-timestamp 1760727402
-transform 0 -1 1220 -1 0 -32
-box -10 -9 33 23
-use NOR3  NOR3_10
-timestamp 1762304029
-transform 1 0 1164 0 1 -54
+transform 1 0 1076 0 1 -54
 box -11 -15 33 40
 use NOR3  NOR3_11
 timestamp 1762304029
 transform 1 0 1120 0 1 -54
 box -11 -15 33 40
-use NOR2  NOR2_6
+use NOR3  NOR3_10
+timestamp 1762304029
+transform 1 0 1164 0 1 -54
+box -11 -15 33 40
+use inverter  inverter_4
+timestamp 1760727402
+transform 0 -1 1220 -1 0 -32
+box -10 -9 33 23
+use NOR2  NOR2_4
 timestamp 1762323609
-transform 1 0 1313 0 1 -28
+transform 1 0 1244 0 1 -28
 box -15 -39 20 8
+use NOR2  NOR2_5
+timestamp 1762323609
+transform 1 0 1279 0 1 -28
+box -15 -39 20 8
+use NAND2  NAND2_0
+timestamp 1762410408
+transform 1 0 1335 0 1 -69
+box -41 6 0 43
+use NAND2  NAND2_1
+timestamp 1762410408
+transform 1 0 1376 0 1 -69
+box -41 6 0 43
+use NAND2  NAND2_2
+timestamp 1762410408
+transform 1 0 1417 0 1 -69
+box -41 6 0 43
 << labels >>
 rlabel metal1 1350 -4 1353 1 1 Lo
 rlabel metal1 1289 -2 1292 1 5 w1
@@ -584,13 +619,9 @@ rlabel metal2 1324 -95 1327 -92 1 S2
 rlabel metal1 1204 6 1207 9 5 r10
 rlabel metal1 1173 18 1176 23 1 w0
 rlabel metal1 1303 13 1306 16 1 r01
-rlabel metal1 1 -24 4 -22 1 phi_1!
 rlabel metal1 9 27 12 30 1 Lin
-rlabel metal1 161 28 164 30 1 g1,2
 rlabel metal1 261 29 264 32 1 g3
 rlabel metal1 290 29 293 32 1 Lf
-rlabel polycontact 587 -69 589 -67 1 phi1!
-rlabel polysilicon 291 -64 293 -62 1 phi1!
 rlabel polysilicon 247 -63 249 -61 1 phi0
 rlabel metal1 663 -11 666 -8 1 ready
 rlabel metal1 609 4 612 7 1 cin
@@ -599,4 +630,5 @@ rlabel metal1 496 28 499 31 1 s
 rlabel metal1 526 28 529 31 1 Ls
 rlabel metal1 75 -132 78 -129 1 phi1
 rlabel metal1 76 -141 78 -138 1 phi0
+rlabel metal1 161 27 164 32 5 g12
 << end >>
