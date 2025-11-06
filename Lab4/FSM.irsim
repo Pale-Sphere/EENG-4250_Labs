@@ -1,0 +1,50 @@
+vector CLOCK phi0 phi1
+clock CLOCK 00 10 00 01
+
+vector in in0 in1 in2 in3 in4 in5 in6 in7 
+vector out out0 out1 out2 out3 out4 out5 out6 out7
+
+ana reset iter load ready in out
+
+h Vdd!
+l GND!
+
+# set the input
+setvector in 11111111 
+
+
+# -----------Test 1: Test Reset ------------
+# reset
+h reset
+c 
+c 
+
+#-----------Test 2: Test Load --------------
+# load into y register and zero out reg x
+l reset
+h load
+c
+c 
+c  #operation should be finished in 3 cycles
+
+l load 
+
+#-----------Test 3: Test Iter Op-----------
+# Do iterate step
+h iter 
+c
+c 
+c 
+c 
+c 
+
+# try to start a process then reset 
+h load
+l iter
+c 
+s 
+h reset
+
+
+
+
