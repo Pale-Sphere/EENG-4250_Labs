@@ -1,0 +1,130 @@
+magic
+tech scmos
+timestamp 1762391006
+<< nwell >>
+rect -7 -6 90 18
+<< pwell >>
+rect -7 -30 67 -6
+<< ntransistor >>
+rect 5 -21 7 -12
+rect 11 -21 13 -12
+rect 17 -21 19 -12
+rect 23 -21 25 -12
+rect 32 -21 34 -15
+rect 38 -21 40 -15
+rect 44 -21 46 -15
+<< ptransistor >>
+rect 5 0 7 6
+rect 14 0 16 12
+rect 20 0 22 12
+rect 29 0 31 12
+rect 38 0 40 12
+rect 56 0 58 12
+<< ndiffusion >>
+rect 4 -17 5 -12
+rect -1 -21 5 -17
+rect 7 -21 11 -12
+rect 13 -21 17 -12
+rect 19 -21 23 -12
+rect 25 -15 31 -12
+rect 25 -16 32 -15
+rect 25 -21 26 -16
+rect 31 -21 32 -16
+rect 34 -21 38 -15
+rect 40 -21 44 -15
+rect 46 -20 47 -15
+rect 46 -21 52 -20
+<< pdiffusion >>
+rect 10 6 14 12
+rect -1 5 5 6
+rect 4 0 5 5
+rect 7 1 8 6
+rect 13 1 14 6
+rect 7 0 14 1
+rect 16 0 20 12
+rect 22 5 29 12
+rect 22 0 23 5
+rect 28 0 29 5
+rect 31 7 32 12
+rect 37 7 38 12
+rect 31 0 38 7
+rect 40 5 46 12
+rect 40 0 41 5
+rect 55 7 56 12
+rect 50 0 56 7
+rect 58 7 59 12
+rect 58 0 64 7
+<< ndcontact >>
+rect -1 -17 4 -12
+rect 26 -21 31 -16
+rect 47 -20 52 -15
+<< pdcontact >>
+rect -1 0 4 5
+rect 8 1 13 6
+rect 23 0 28 5
+rect 32 7 37 12
+rect 41 0 46 5
+rect 50 7 55 12
+rect 59 7 64 12
+<< polysilicon >>
+rect 14 12 16 15
+rect 20 12 22 15
+rect 29 12 31 15
+rect 38 12 40 15
+rect 56 12 58 15
+rect 5 6 7 9
+rect 5 -3 7 0
+rect 14 -3 16 0
+rect 20 -3 22 0
+rect 29 -3 31 0
+rect 38 -3 40 0
+rect 56 -3 58 0
+rect 5 -12 7 -9
+rect 11 -12 13 -9
+rect 17 -12 19 -9
+rect 23 -12 25 -9
+rect 32 -15 34 -12
+rect 38 -15 40 -12
+rect 44 -15 46 -12
+rect 5 -24 7 -21
+rect 11 -24 13 -21
+rect 17 -24 19 -21
+rect 23 -23 25 -21
+rect 32 -23 34 -21
+rect 23 -25 34 -23
+rect 38 -24 40 -21
+rect 44 -24 46 -21
+<< metal1 >>
+rect 8 6 11 13
+rect 61 12 64 16
+rect 37 8 50 12
+rect 64 9 71 12
+rect 68 6 71 9
+rect -1 -4 2 0
+rect 24 -4 27 0
+rect -1 -5 27 -4
+rect 43 -5 46 0
+rect -1 -7 73 -5
+rect -1 -12 2 -7
+rect 24 -8 73 -7
+rect 49 -15 52 -13
+rect 27 -27 30 -21
+rect 68 -27 71 -16
+use INV1X  INV1X_0
+timestamp 1762374491
+transform 1 0 68 0 1 0
+box -6 -23 20 12
+<< labels >>
+rlabel polysilicon 5 -10 7 -9 1 !S1
+rlabel polysilicon 11 -10 13 -9 1 !S2
+rlabel polysilicon 17 -10 19 -9 1 S3
+rlabel polysilicon 23 -10 25 -9 1 !reset
+rlabel polysilicon 38 -13 40 -12 1 S2
+rlabel polysilicon 44 -13 46 -12 1 !S3
+rlabel polysilicon 5 8 7 9 1 !reset
+rlabel polysilicon 14 14 16 15 1 S2
+rlabel polysilicon 20 14 22 15 1 S3
+rlabel polysilicon 56 14 58 15 1 !S3
+rlabel polysilicon 29 14 31 15 1 !S1
+rlabel polysilicon 38 14 40 15 1 !S2
+<< end >>
