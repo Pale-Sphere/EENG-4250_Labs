@@ -1,0 +1,48 @@
+magic
+tech scmos
+timestamp 1762406315
+<< error_s >>
+rect 97 330 98 331
+rect 119 300 120 301
+rect 124 205 125 209
+rect 122 168 123 177
+rect 128 52 129 205
+rect 134 200 137 209
+rect 134 62 135 200
+rect 130 57 131 61
+rect 134 55 135 57
+rect 116 29 117 39
+<< metal1 >>
+rect 95 201 128 204
+rect 94 71 121 74
+rect 118 48 121 71
+rect 118 47 137 48
+rect 118 45 134 47
+rect 116 15 119 42
+rect 116 12 122 15
+<< m2contact >>
+rect 97 330 102 335
+rect 114 298 119 303
+rect 128 200 133 205
+rect 114 168 119 173
+rect 134 62 139 67
+rect 134 52 139 57
+rect 134 42 139 47
+rect 122 32 127 37
+rect 122 22 127 27
+rect 122 12 127 17
+<< metal2 >>
+rect 102 332 137 335
+rect 119 298 125 300
+rect 117 297 125 298
+rect 114 25 117 168
+rect 122 37 125 297
+rect 128 55 131 200
+rect 134 67 137 332
+rect 128 52 134 55
+rect 114 22 122 25
+use reg_state  reg_state_0
+timestamp 1762406315
+transform 1 0 1 0 1 0
+box -1 0 120 385
+<< end >>
