@@ -1,0 +1,39 @@
+magic
+tech scmos
+timestamp 1762394702
+<< nwell >>
+rect 93 300 119 326
+rect 93 170 119 196
+rect 93 40 120 66
+<< pwell >>
+rect 95 38 104 40
+<< metal1 >>
+rect 69 375 80 380
+rect 95 298 104 302
+rect 69 245 80 250
+rect 95 168 105 172
+rect 69 115 80 120
+rect 95 38 104 42
+<< m123contact >>
+rect 50 380 55 385
+rect 64 380 69 385
+rect 50 250 55 255
+rect 64 250 69 255
+rect 50 120 55 125
+rect 64 120 69 125
+<< metal3 >>
+rect 50 255 53 380
+rect 64 255 67 380
+rect 50 125 53 250
+rect 64 125 67 250
+use INV1X  INV1X_0
+array 0 0 7 0 2 130
+timestamp 1762374491
+transform 1 0 99 0 1 46
+box -6 -23 20 12
+use reg_one  reg_one_0
+array 0 0 98 0 2 130
+timestamp 1761417458
+transform 1 0 15 0 1 3
+box -16 -3 81 118
+<< end >>
