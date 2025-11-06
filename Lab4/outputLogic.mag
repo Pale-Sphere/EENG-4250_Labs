@@ -1,16 +1,20 @@
 magic
 tech scmos
-timestamp 1762323753
+timestamp 1762398015
 << nwell >>
 rect 946 -44 972 -23
 << pwell >>
 rect 945 -64 972 -44
 rect 945 -65 962 -64
 << polysilicon >>
+rect 1 -17 3 -9
+rect 10 -17 12 8
 rect 53 -24 55 -14
-rect 308 -17 310 -3
-rect 317 -17 319 -9
+rect 358 -17 360 -3
+rect 367 -17 369 -9
 rect 62 -24 64 -21
+rect 220 -31 222 -21
+rect 578 -29 580 -21
 rect 860 -25 862 -22
 rect 904 -25 906 -16
 rect 1174 -19 1176 -11
@@ -18,6 +22,7 @@ rect 1183 -19 1185 -5
 rect 933 -31 935 -25
 rect 962 -30 964 -19
 rect 1215 -31 1217 -22
+rect 300 -45 304 -40
 rect 88 -64 90 -59
 rect 97 -64 99 -59
 rect 106 -64 108 -59
@@ -27,18 +32,24 @@ rect 150 -64 152 -59
 rect 176 -64 178 -59
 rect 185 -64 187 -59
 rect 194 -64 196 -59
-rect 352 -63 354 -58
-rect 361 -63 363 -58
-rect 370 -63 372 -58
-rect 396 -63 398 -58
-rect 405 -63 407 -58
-rect 414 -63 416 -58
-rect 440 -63 442 -58
-rect 449 -63 451 -58
-rect 458 -63 460 -58
-rect 484 -65 486 -58
-rect 493 -65 495 -58
-rect 502 -65 504 -58
+rect 247 -64 249 -56
+rect 291 -64 293 -56
+rect 402 -63 404 -58
+rect 411 -63 413 -58
+rect 420 -63 422 -58
+rect 446 -63 448 -58
+rect 455 -63 457 -58
+rect 464 -63 466 -58
+rect 490 -63 492 -58
+rect 499 -63 501 -58
+rect 508 -63 510 -58
+rect 534 -65 536 -58
+rect 543 -65 545 -58
+rect 552 -65 554 -58
+rect 587 -65 589 -55
+rect 641 -64 643 -58
+rect 650 -64 652 -58
+rect 659 -64 661 -58
 rect 685 -65 687 -55
 rect 717 -65 719 -55
 rect 749 -65 751 -55
@@ -58,16 +69,20 @@ rect 1121 -66 1123 -61
 rect 1130 -66 1132 -61
 rect 1139 -66 1141 -61
 << polycontact >>
-rect 306 -3 311 2
+rect 356 -3 361 2
 rect 51 -14 56 -9
+rect 0 -22 5 -17
+rect 9 -22 14 -17
 rect 20 -24 25 -19
 rect 60 -21 65 -16
-rect 274 -20 279 -15
-rect 316 -9 321 -4
+rect 218 -21 223 -16
+rect 324 -21 329 -16
+rect 366 -9 371 -4
 rect 1181 -5 1186 0
-rect 325 -15 330 -10
+rect 375 -15 380 -10
 rect 1172 -11 1177 -6
 rect 903 -16 908 -11
+rect 576 -21 581 -16
 rect 859 -22 864 -17
 rect 894 -23 899 -18
 rect 962 -19 967 -14
@@ -75,6 +90,7 @@ rect 1162 -17 1167 -12
 rect 932 -25 937 -20
 rect 1214 -22 1219 -17
 rect 1275 -23 1280 -18
+rect 304 -45 309 -40
 rect 87 -69 92 -64
 rect 96 -69 101 -64
 rect 105 -69 110 -64
@@ -84,21 +100,27 @@ rect 149 -69 154 -64
 rect 174 -69 179 -64
 rect 183 -69 188 -64
 rect 192 -69 197 -64
-rect 351 -68 356 -63
-rect 360 -68 365 -63
-rect 369 -68 374 -63
-rect 395 -68 400 -63
-rect 404 -68 409 -63
-rect 413 -68 418 -63
-rect 439 -68 444 -63
-rect 448 -68 453 -63
-rect 457 -68 462 -63
+rect 245 -69 250 -64
+rect 289 -69 294 -64
+rect 401 -68 406 -63
+rect 410 -68 415 -63
+rect 419 -68 424 -63
+rect 445 -68 450 -63
+rect 454 -68 459 -63
+rect 463 -68 468 -63
+rect 489 -68 494 -63
+rect 498 -68 503 -63
+rect 507 -68 512 -63
+rect 532 -70 537 -65
+rect 541 -70 546 -65
+rect 550 -70 555 -65
+rect 586 -70 591 -65
+rect 639 -69 644 -64
+rect 648 -69 653 -64
+rect 657 -69 662 -64
 rect 687 -65 692 -60
 rect 719 -65 724 -60
 rect 751 -65 756 -60
-rect 482 -70 487 -65
-rect 491 -70 496 -65
-rect 500 -70 505 -65
 rect 779 -70 784 -65
 rect 788 -70 793 -65
 rect 797 -70 802 -65
@@ -123,39 +145,53 @@ rect 1284 -71 1289 -66
 rect 1310 -71 1315 -66
 rect 1319 -71 1324 -66
 << metal1 >>
-rect 1069 28 1075 31
-rect 1173 13 1176 23
-rect 944 10 1176 13
-rect 9 -45 12 0
-rect 113 -5 116 1
-rect 161 -2 164 0
-rect 211 -2 214 1
-rect 261 -1 264 1
-rect 161 -5 214 -2
-rect 217 -4 264 -1
+rect 9 28 12 30
+rect 9 25 35 28
+rect 32 7 35 25
+rect 113 -5 116 25
+rect 161 -9 164 32
+rect 211 -9 214 32
 rect 56 -12 130 -9
+rect 161 -12 254 -9
+rect 1 -68 4 -22
+rect 9 -45 12 -22
 rect 25 -22 51 -19
 rect 65 -19 86 -16
 rect 127 -17 130 -12
-rect 198 -17 201 -5
+rect 198 -19 218 -16
 rect 48 -32 51 -22
+rect 251 -40 254 -12
 rect 115 -53 117 -50
-rect 217 -57 220 -4
-rect 290 -9 293 1
-rect 311 -1 438 2
-rect 321 -7 394 -4
-rect 264 -12 293 -9
-rect 264 -44 267 -12
-rect 330 -15 350 -12
-rect 279 -18 306 -15
-rect 347 -17 350 -15
-rect 391 -16 394 -7
-rect 435 -15 438 -1
-rect 478 -9 481 1
-rect 496 -9 499 1
-rect 526 -9 529 1
-rect 478 -12 529 -9
-rect 506 -17 509 -12
+rect 202 -60 209 -57
+rect 261 -58 264 32
+rect 290 -9 293 32
+rect 478 11 481 30
+rect 496 11 499 31
+rect 478 8 499 11
+rect 361 -1 488 2
+rect 371 -7 444 -4
+rect 268 -12 293 -9
+rect 268 -32 271 -12
+rect 380 -15 400 -12
+rect 324 -16 356 -15
+rect 329 -18 356 -16
+rect 397 -17 400 -15
+rect 441 -16 444 -7
+rect 485 -15 488 -1
+rect 496 -8 499 8
+rect 526 -8 529 31
+rect 1069 28 1075 31
+rect 1173 13 1176 23
+rect 944 10 1176 13
+rect 609 -2 612 7
+rect 609 -5 622 -2
+rect 496 -11 612 -8
+rect 556 -16 581 -15
+rect 556 -18 576 -16
+rect 609 -40 612 -11
+rect 309 -44 317 -41
+rect 619 -49 622 -5
+rect 663 -16 666 -8
 rect 803 -14 903 -11
 rect 803 -19 806 -14
 rect 838 -21 859 -18
@@ -196,9 +232,13 @@ rect 1289 -34 1292 -14
 rect 1350 -20 1353 17
 rect 1324 -23 1353 -20
 rect 1324 -33 1327 -23
+rect 619 -52 636 -49
 rect 979 -54 989 -51
 rect 1068 -54 1071 -51
-rect 202 -60 220 -57
+rect 242 -61 264 -58
+rect 277 -61 286 -58
+rect 1 -71 82 -68
+rect 79 -128 82 -71
 rect 88 -118 91 -69
 rect 97 -82 100 -69
 rect 106 -100 109 -69
@@ -208,18 +248,25 @@ rect 150 -91 153 -69
 rect 175 -74 178 -69
 rect 184 -109 187 -69
 rect 193 -118 196 -69
-rect 352 -74 355 -68
-rect 361 -82 364 -68
-rect 370 -118 373 -68
-rect 396 -118 399 -68
-rect 405 -82 408 -68
-rect 414 -74 417 -68
-rect 440 -74 443 -68
-rect 449 -109 452 -68
-rect 458 -91 461 -68
-rect 483 -100 486 -70
-rect 492 -82 495 -70
-rect 501 -91 504 -70
+rect 75 -132 78 -129
+rect 246 -137 249 -69
+rect 290 -118 293 -69
+rect 402 -74 405 -68
+rect 411 -82 414 -68
+rect 420 -118 423 -68
+rect 446 -118 449 -68
+rect 455 -82 458 -68
+rect 464 -74 467 -68
+rect 490 -74 493 -68
+rect 499 -109 502 -68
+rect 508 -91 511 -68
+rect 533 -100 536 -70
+rect 542 -82 545 -70
+rect 551 -91 554 -70
+rect 587 -118 590 -70
+rect 640 -74 643 -69
+rect 649 -82 652 -69
+rect 658 -91 661 -69
 rect 680 -118 683 -62
 rect 688 -92 691 -65
 rect 712 -110 715 -62
@@ -249,10 +296,11 @@ rect 1250 -82 1253 -71
 rect 1285 -74 1288 -71
 rect 1311 -109 1314 -71
 rect 1320 -100 1323 -71
+rect 76 -141 78 -138
 << m2contact >>
-rect 1064 27 1069 32
 rect 116 -6 121 -1
 rect 117 -54 122 -49
+rect 1064 27 1069 32
 rect 1266 -10 1271 -5
 rect 1063 -55 1068 -50
 rect 1265 -55 1270 -50
@@ -263,16 +311,22 @@ rect 174 -79 179 -74
 rect 149 -96 154 -91
 rect 140 -114 145 -109
 rect 183 -114 188 -109
-rect 351 -79 356 -74
-rect 360 -87 365 -82
-rect 413 -79 418 -74
-rect 439 -79 444 -74
-rect 404 -87 409 -82
-rect 457 -96 462 -91
-rect 491 -87 496 -82
-rect 500 -96 505 -91
-rect 482 -105 487 -100
-rect 448 -114 453 -109
+rect 87 -123 92 -118
+rect 192 -123 197 -118
+rect 78 -133 83 -128
+rect 401 -79 406 -74
+rect 410 -87 415 -82
+rect 463 -79 468 -74
+rect 489 -79 494 -74
+rect 454 -87 459 -82
+rect 507 -96 512 -91
+rect 541 -87 546 -82
+rect 550 -96 555 -91
+rect 532 -105 537 -100
+rect 498 -114 503 -109
+rect 639 -79 644 -74
+rect 648 -87 653 -82
+rect 657 -96 662 -91
 rect 687 -97 692 -92
 rect 719 -88 724 -83
 rect 751 -79 756 -74
@@ -299,13 +353,15 @@ rect 1137 -105 1142 -100
 rect 1319 -105 1324 -100
 rect 1128 -114 1133 -109
 rect 1310 -114 1315 -109
-rect 87 -123 92 -118
-rect 192 -123 197 -118
-rect 369 -123 374 -118
-rect 395 -123 400 -118
+rect 289 -123 294 -118
+rect 419 -123 424 -118
+rect 445 -123 450 -118
+rect 586 -123 591 -118
 rect 679 -123 684 -118
 rect 1049 -123 1054 -118
 rect 1075 -123 1080 -118
+rect 78 -142 83 -137
+rect 245 -142 250 -137
 << pm12contact >>
 rect 1202 -2 1207 3
 rect 1200 -51 1205 -46
@@ -315,20 +371,22 @@ rect 1064 -50 1067 27
 rect 1202 -46 1205 -2
 rect 1266 -50 1269 -10
 rect 86 -78 174 -75
-rect 179 -78 351 -75
-rect 356 -78 413 -75
-rect 418 -78 439 -75
-rect 444 -78 751 -75
+rect 179 -78 401 -75
+rect 406 -78 463 -75
+rect 468 -78 489 -75
+rect 494 -78 639 -75
+rect 644 -78 751 -75
 rect 756 -78 868 -75
 rect 873 -78 1010 -75
 rect 1015 -78 1031 -75
 rect 1036 -78 1284 -75
 rect 1289 -78 1327 -75
-rect 86 -86 96 -83
-rect 101 -86 360 -83
-rect 365 -86 404 -83
-rect 409 -86 491 -83
-rect 496 -86 719 -83
+rect 85 -86 96 -83
+rect 101 -86 410 -83
+rect 415 -86 454 -83
+rect 459 -86 541 -83
+rect 546 -86 648 -83
+rect 653 -86 719 -83
 rect 724 -86 788 -83
 rect 793 -86 833 -83
 rect 838 -86 1001 -83
@@ -336,10 +394,11 @@ rect 1006 -86 1040 -83
 rect 1045 -86 1084 -83
 rect 1089 -86 1249 -83
 rect 1254 -86 1327 -83
-rect 86 -95 149 -92
-rect 154 -95 457 -92
-rect 462 -95 500 -92
-rect 505 -95 687 -92
+rect 85 -95 149 -92
+rect 154 -95 507 -92
+rect 512 -95 550 -92
+rect 555 -95 657 -92
+rect 662 -95 687 -92
 rect 692 -95 779 -92
 rect 784 -95 824 -92
 rect 829 -95 992 -92
@@ -348,8 +407,8 @@ rect 1124 -95 1240 -92
 rect 1245 -95 1327 -92
 rect 86 -104 105 -101
 rect 110 -104 131 -101
-rect 136 -104 482 -101
-rect 487 -104 743 -101
+rect 136 -104 532 -101
+rect 537 -104 743 -101
 rect 748 -104 797 -101
 rect 802 -104 1093 -101
 rect 1098 -104 1137 -101
@@ -357,144 +416,160 @@ rect 1142 -104 1319 -101
 rect 1324 -104 1326 -101
 rect 86 -113 140 -110
 rect 145 -113 183 -110
-rect 188 -113 448 -110
-rect 453 -113 711 -110
+rect 188 -113 498 -110
+rect 503 -113 711 -110
 rect 716 -113 1128 -110
 rect 1133 -113 1310 -110
 rect 1315 -113 1326 -110
 rect 86 -122 87 -119
 rect 92 -122 192 -119
-rect 197 -122 369 -119
-rect 374 -122 395 -119
-rect 400 -122 679 -119
+rect 197 -122 289 -119
+rect 294 -122 419 -119
+rect 424 -122 445 -119
+rect 450 -122 586 -119
+rect 591 -122 679 -119
 rect 684 -122 1049 -119
 rect 1054 -122 1075 -119
 rect 1080 -122 1328 -119
-use NOR2  NOR2_7
-timestamp 1762323609
-transform -1 0 61 0 1 -27
-box -15 -39 20 8
-use inverter  inverter_5
-timestamp 1760727402
-transform 0 1 18 -1 0 -31
-box -10 -9 33 23
-use NOR3  NOR3_14
-timestamp 1762304029
-transform -1 0 109 0 1 -53
-box -11 -15 33 40
+rect 83 -132 590 -129
+rect 83 -141 245 -138
+use AND2  AND2_0
+timestamp 1762393336
+transform 1 0 -4 0 1 -4
+box -7 -10 46 26
 use NOR3  NOR3_15
 timestamp 1762304029
 transform -1 0 153 0 1 -53
 box -11 -15 33 40
+use NOR3  NOR3_14
+timestamp 1762304029
+transform -1 0 109 0 1 -53
+box -11 -15 33 40
+use inverter  inverter_5
+timestamp 1760727402
+transform 0 1 18 -1 0 -31
+box -10 -9 33 23
+use NOR2  NOR2_7
+timestamp 1762323609
+transform -1 0 61 0 1 -27
+box -15 -39 20 8
+use AND2  AND2_2
+timestamp 1762393336
+transform 1 0 215 0 1 -51
+box -7 -10 46 26
+use AND2  AND2_1
+timestamp 1762393336
+transform -1 0 307 0 1 -51
+box -7 -10 46 26
 use NOR3  NOR3_2
 timestamp 1762304029
 transform 1 0 175 0 1 -53
 box -11 -15 33 40
-use inverter  inverter_0
-timestamp 1760727402
-transform 0 1 273 -1 0 -30
-box -10 -9 33 23
-use NOR3  NOR3_0
+use NOR3  NOR3_16
 timestamp 1762304029
-transform -1 0 329 0 1 -52
+transform -1 0 467 0 1 -52
 box -11 -15 33 40
 use NOR3  NOR3_17
 timestamp 1762304029
-transform -1 0 373 0 1 -52
+transform -1 0 423 0 1 -52
 box -11 -15 33 40
-use NOR3  NOR3_16
+use NOR3  NOR3_0
 timestamp 1762304029
-transform -1 0 417 0 1 -52
+transform -1 0 379 0 1 -52
+box -11 -15 33 40
+use inverter  inverter_0
+timestamp 1760727402
+transform 0 1 323 -1 0 -30
+box -10 -9 33 23
+use AND2  AND2_3
+timestamp 1762393336
+transform 1 0 573 0 1 -50
+box -7 -10 46 26
+use NOR3  NOR3_7
+timestamp 1762304029
+transform 1 0 533 0 1 -52
 box -11 -15 33 40
 use NOR3  NOR3_1
 timestamp 1762304029
-transform -1 0 461 0 1 -52
+transform -1 0 511 0 1 -52
 box -11 -15 33 40
-use NOR3  NOR3_7
+use NOR3  NOR3_8
 timestamp 1762304029
-transform 1 0 483 0 1 -52
+transform 1 0 780 0 1 -54
 box -11 -15 33 40
-use inverter  inverter_7
+use inverter  inverter_1
 timestamp 1760727402
-transform 0 1 682 -1 0 -32
+transform 0 1 746 -1 0 -32
 box -10 -9 33 23
 use inverter  inverter_6
 timestamp 1760727402
 transform 0 1 714 -1 0 -32
 box -10 -9 33 23
-use inverter  inverter_1
+use inverter  inverter_7
 timestamp 1760727402
-transform 0 1 746 -1 0 -32
+transform 0 1 682 -1 0 -32
 box -10 -9 33 23
-use NOR3  NOR3_8
+use NOR3  NOR3_3
 timestamp 1762304029
-transform 1 0 780 0 1 -54
+transform 1 0 640 0 1 -52
 box -11 -15 33 40
-use NOR2  NOR2_3
+use inverter  inverter_2
+timestamp 1760727402
+transform 0 -1 938 -1 0 -32
+box -10 -9 33 23
+use NOR2  NOR2_1
 timestamp 1762323609
-transform 1 0 828 0 1 -28
+transform 1 0 898 0 1 -28
 box -15 -39 20 8
 use NOR2  NOR2_2
 timestamp 1762323609
 transform 1 0 863 0 1 -28
 box -15 -39 20 8
-use NOR2  NOR2_1
+use NOR2  NOR2_3
 timestamp 1762323609
-transform 1 0 898 0 1 -28
+transform 1 0 828 0 1 -28
 box -15 -39 20 8
-use inverter  inverter_2
-timestamp 1760727402
-transform 0 -1 938 -1 0 -32
-box -10 -9 33 23
-use inverter  inverter_3
-timestamp 1760727402
-transform 0 1 959 -1 0 -32
-box -10 -9 33 23
-use NOR3  NOR3_9
+use NOR3  NOR3_12
 timestamp 1762304029
-transform 1 0 993 0 1 -54
+transform 1 0 1076 0 1 -54
 box -11 -15 33 40
 use NOR3  NOR3_13
 timestamp 1762304029
 transform 1 0 1032 0 1 -54
 box -11 -15 33 40
-use NOR3  NOR3_12
+use NOR3  NOR3_9
 timestamp 1762304029
-transform 1 0 1076 0 1 -54
+transform 1 0 993 0 1 -54
+box -11 -15 33 40
+use inverter  inverter_3
+timestamp 1760727402
+transform 0 1 959 -1 0 -32
+box -10 -9 33 23
+use NOR2  NOR2_5
+timestamp 1762323609
+transform 1 0 1279 0 1 -28
+box -15 -39 20 8
+use NOR2  NOR2_4
+timestamp 1762323609
+transform 1 0 1244 0 1 -28
+box -15 -39 20 8
+use inverter  inverter_4
+timestamp 1760727402
+transform 0 -1 1220 -1 0 -32
+box -10 -9 33 23
+use NOR3  NOR3_10
+timestamp 1762304029
+transform 1 0 1164 0 1 -54
 box -11 -15 33 40
 use NOR3  NOR3_11
 timestamp 1762304029
 transform 1 0 1120 0 1 -54
 box -11 -15 33 40
-use NOR3  NOR3_10
-timestamp 1762304029
-transform 1 0 1164 0 1 -54
-box -11 -15 33 40
-use inverter  inverter_4
-timestamp 1760727402
-transform 0 -1 1220 -1 0 -32
-box -10 -9 33 23
-use NOR2  NOR2_4
-timestamp 1762323609
-transform 1 0 1244 0 1 -28
-box -15 -39 20 8
-use NOR2  NOR2_5
-timestamp 1762323609
-transform 1 0 1279 0 1 -28
-box -15 -39 20 8
 use NOR2  NOR2_6
 timestamp 1762323609
 transform 1 0 1313 0 1 -28
 box -15 -39 20 8
 << labels >>
-rlabel metal1 9 -6 12 0 1 Lin
-rlabel metal1 161 -5 164 0 1 g1
-rlabel metal1 211 -4 214 1 1 g2
-rlabel metal1 261 -4 264 1 1 g3
-rlabel metal1 478 -4 481 1 1 u
-rlabel metal1 496 -4 499 1 1 s
-rlabel metal1 526 -4 529 1 1 Ls
-rlabel metal1 290 -4 293 1 1 Lf
 rlabel metal1 1350 -4 1353 1 1 Lo
 rlabel metal1 1289 -2 1292 1 5 w1
 rlabel metal1 1317 -2 1320 1 5 r11
@@ -509,4 +584,19 @@ rlabel metal2 1324 -95 1327 -92 1 S2
 rlabel metal1 1204 6 1207 9 5 r10
 rlabel metal1 1173 18 1176 23 1 w0
 rlabel metal1 1303 13 1306 16 1 r01
+rlabel metal1 1 -24 4 -22 1 phi_1!
+rlabel metal1 9 27 12 30 1 Lin
+rlabel metal1 161 28 164 30 1 g1,2
+rlabel metal1 261 29 264 32 1 g3
+rlabel metal1 290 29 293 32 1 Lf
+rlabel polycontact 587 -69 589 -67 1 phi1!
+rlabel polysilicon 291 -64 293 -62 1 phi1!
+rlabel polysilicon 247 -63 249 -61 1 phi0
+rlabel metal1 663 -11 666 -8 1 ready
+rlabel metal1 609 4 612 7 1 cin
+rlabel metal1 478 27 481 30 1 u
+rlabel metal1 496 28 499 31 1 s
+rlabel metal1 526 28 529 31 1 Ls
+rlabel metal1 75 -132 78 -129 1 phi1
+rlabel metal1 76 -141 78 -138 1 phi0
 << end >>
