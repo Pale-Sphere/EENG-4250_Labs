@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1762483330
+timestamp 1762489133
 << nwell >>
 rect -104 81 -50 83
 rect -106 62 -45 81
@@ -130,6 +130,7 @@ rect -73 27 -68 30
 rect -65 17 -62 39
 rect -72 5 -71 9
 rect -58 8 -55 47
+rect -31 42 -21 45
 rect -99 -10 -98 -6
 rect -60 -14 -57 -8
 rect -13 -24 -10 64
@@ -242,14 +243,14 @@ use S1  S1_0
 timestamp 1762373494
 transform 0 1 -110 1 0 17
 box -6 -48 65 25
-use S2  S2_0
-timestamp 1762391006
-transform 0 -1 -37 1 0 -7
-box -7 -30 90 18
 use S3  S3_0
 timestamp 1762402536
 transform 0 1 30 1 0 64
 box -78 4 4 66
+use S2  S2_0
+timestamp 1762488958
+transform 0 -1 -37 1 0 -7
+box -7 -30 90 18
 << labels >>
 rlabel metal1 -140 -27 111 -24 5 GND!
 rlabel metal1 -102 78 -92 81 1 Vdd!
