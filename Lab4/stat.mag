@@ -1,0 +1,75 @@
+magic
+tech scmos
+timestamp 1762403759
+<< checkpaint >>
+rect -8 57 22 79
+rect -40 55 22 57
+rect -40 37 25 55
+rect -40 29 48 37
+rect -40 12 68 29
+rect -40 -46 83 12
+rect -40 -51 64 -46
+rect -40 -53 48 -51
+rect -40 -81 -6 -53
+<< polysilicon >>
+rect 32 -12 34 -9
+rect 6 -15 8 -13
+rect 6 -30 8 -28
+rect 32 -30 34 -28
+rect 6 -32 34 -30
+<< ndiffusion >>
+rect 26 -18 32 -12
+rect 31 -23 32 -18
+rect 26 -28 32 -23
+rect 34 -18 41 -12
+rect 34 -23 36 -18
+rect 34 -28 41 -23
+<< pdiffusion >>
+rect 0 -18 6 -15
+rect 5 -23 6 -18
+rect 0 -28 6 -23
+rect 8 -18 13 -15
+rect 8 -28 13 -23
+<< metal1 >>
+rect -13 12 21 15
+rect -13 -9 -10 12
+rect 18 3 21 12
+rect 5 -4 8 -3
+rect 5 -7 52 -4
+rect -20 -12 5 -9
+rect 19 -20 22 -7
+rect 13 -23 26 -20
+rect 32 -23 34 -18
+<< metal2 >>
+rect -4 8 -2 19
+rect 43 8 45 19
+rect -4 -18 -2 3
+rect 43 -18 45 3
+rect -4 -37 -2 -23
+rect 43 -37 45 -23
+<< ntransistor >>
+rect 32 -28 34 -12
+<< ptransistor >>
+rect 6 -28 8 -15
+<< polycontact >>
+rect 5 -3 10 2
+rect 5 -13 10 -8
+<< ndcontact >>
+rect 26 -23 31 -18
+rect 36 -23 41 -18
+<< pdcontact >>
+rect 0 -23 5 -18
+rect 8 -23 13 -18
+<< m2contact >>
+rect -5 3 0 8
+rect 41 3 46 8
+rect -5 -23 0 -18
+rect 41 -23 46 -18
+use inv_small  inv_small_0
+timestamp 1761264560
+transform 0 1 -4 -1 0 -2
+box -13 4 -2 45
+<< labels >>
+rlabel metal2 -4 16 -2 19 5 Vdd!
+rlabel metal2 43 16 45 19 5 GND!
+<< end >>
