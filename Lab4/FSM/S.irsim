@@ -1,0 +1,93 @@
+
+# set vectors
+vector STATE S1 S2 S3
+vector !State !S1 !S2 !S3 
+vector next S1' S2' S3'
+
+ana STATE next iter load !reset 
+
+
+h Vdd!
+l GND!
+setvector STATE 000
+setvector !State 111
+
+l iter
+l load
+h !reset
+
+#Test the state machine
+
+#--------make current state 000---------
+setvector STATE 000
+setvector !State 111
+s 
+# should be 000
+
+#-check for iter-
+h iter
+s 
+l iter 
+
+#-check for load-
+h load 
+s 
+l load 
+
+#- check reset-
+l !reset
+s 
+h !reset
+
+
+# ------ Set to state 1-------------
+setvector STATE 001
+setvector !State 110
+s 
+# should be 110 
+
+#- check reset-
+l !reset
+s 
+h !reset
+
+
+# ------Set to state 2------------
+setvector STATE 010
+setvector !State 101
+s
+# 011
+
+#- check reset-
+l !reset
+s 
+h !reset
+
+#--------Set to state 3---------
+setvector STATE 011
+setvector !State 100
+s 
+# 000
+
+#- check reset-
+l !reset
+s 
+h !reset
+
+#---------Set to state 4---------
+setvector STATE 100
+setvector !State 011
+s 
+
+setvector STATE 101
+setvector !State 010
+s
+
+setvector STATE 110
+setvector !State 001
+s 
+
+setvector STATE 111
+setvector !State 000
+s
+
