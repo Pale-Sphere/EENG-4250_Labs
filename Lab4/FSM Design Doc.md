@@ -35,7 +35,19 @@ iter = iter&!S1&!S2&!S3):
 ↑S3 <- !reset & ( load | iter ) | !S3 & (S1 & (!S2 | S2)
 ↓S3 <- reset | S3
 
-Then with the prod rules we tried to find the best CMOS networks for the next state
+Then with the prod rules we tried to find the best CMOS networks for the next state:
+
+##### S1'
+
+![[S1.png]]
+
+##### S2'
+
+![[S2.png]]
+
+##### S3'
+
+![[S3.png]]
 
 To best handle the IDLE Condition (ready == 1 & there's no inputs), a precharge logic circuit was used to control the write signal of the state flip flops.
 
