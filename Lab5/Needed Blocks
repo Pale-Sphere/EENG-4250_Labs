@@ -2,3 +2,19 @@
 
 
 ## Arithmetic Blocks
+
+Add sub units
+
+Arithmetic Shift Units
+
+#### Filter Blocks
+
+Low pass function:
+
+$$
+L = (x0 + x1) / 2
+$$
+
+$$
+H = (x1 - x0) / 2
+$$
