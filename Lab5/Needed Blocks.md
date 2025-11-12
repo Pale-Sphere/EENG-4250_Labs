@@ -1,5 +1,7 @@
 ## Memory Blocks
+Register for X0, X1, L, and H
 
+State Register (takes in input of L)
 
 ## Arithmetic Blocks
 
