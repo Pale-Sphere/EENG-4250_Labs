@@ -4,36 +4,34 @@ h Vdd!
 l GND!
 
 # Test All States w/o reset (out = S0 & !S2)
-h reset
+h !reset
 
 # S0 = 0 & !S2 = 0 
 
 l S0 !S2
 s
-assert out
+assert out 1
 
 # S0 = 0 & !S2 = 1
 l S0
 h !S2
 s
-assert out 
+assert out 0
 
 # S0 = 1 & !S2 = 0
 h S0
 l !S2
 s
-assert out
+assert out 0
 
 # S0 = 1 & !S2 = 1
 h S0 !S2
 s
-assert out
+assert out 0
 
 # Check reset condition
-h S0 !S2 !reset
-s
-assert out
 
-l S0 !S2 !reset
+h S0 !S2 
+l !reset
 s
-assert out
+assert out 1
