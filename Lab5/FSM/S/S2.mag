@@ -1,24 +1,39 @@
 magic
 tech scmos
-timestamp 1763695697
-<< nwell >>
-rect -50 -5 53 25
+timestamp 1764627526
+<< checkpaint >>
+rect -54 13 -21 46
+rect -14 -9 15 15
+rect -14 -14 36 -9
+rect 6 -43 36 -14
 << pwell >>
 rect -50 -35 53 -5
-<< ntransistor >>
-rect -37 -20 -35 -11
-rect -26 -20 -24 -11
-rect 0 -17 2 -11
-rect 20 -17 22 -11
-rect 32 -20 34 -11
-<< ptransistor >>
-rect -37 1 -35 13
-rect -26 1 -24 13
-rect -6 1 -4 13
-rect 6 1 8 19
-rect 13 1 15 19
-rect 20 1 22 19
-rect 32 1 34 7
+<< nwell >>
+rect -50 -5 53 25
+<< polysilicon >>
+rect -37 13 -35 27
+rect -26 13 -24 27
+rect -6 13 -4 27
+rect 6 19 8 22
+rect 13 19 15 27
+rect 20 19 22 22
+rect 32 7 34 27
+rect -37 -11 -35 1
+rect -26 -2 -24 1
+rect -6 -7 -4 1
+rect 6 -6 8 1
+rect 13 -2 15 1
+rect -26 -9 -4 -7
+rect 0 -8 8 -6
+rect -26 -11 -24 -9
+rect 0 -11 2 -8
+rect 20 -11 22 1
+rect 32 -11 34 1
+rect -37 -23 -35 -20
+rect -26 -23 -24 -20
+rect 0 -26 2 -17
+rect 20 -26 22 -17
+rect 32 -23 34 -20
 << ndiffusion >>
 rect -39 -16 -37 -11
 rect -44 -20 -37 -16
@@ -61,6 +76,54 @@ rect 22 1 24 6
 rect 29 1 32 6
 rect 34 2 36 7
 rect 34 1 41 2
+<< metal1 >>
+rect -39 32 -36 34
+rect -25 32 -22 34
+rect -8 32 -5 34
+rect 13 32 16 34
+rect 31 32 34 34
+rect 38 15 41 21
+rect -28 10 -13 13
+rect 1 11 41 15
+rect 38 7 41 11
+rect -44 -4 -41 1
+rect -21 -4 -18 1
+rect 25 -4 28 1
+rect -44 -7 46 -4
+rect -44 -11 -41 -7
+rect -21 -11 -18 -7
+rect 14 -11 17 -7
+rect -7 -19 -4 -17
+rect -28 -20 -4 -19
+rect -31 -22 -4 -20
+rect 6 -19 9 -17
+rect 6 -20 25 -19
+rect 6 -22 28 -20
+rect 38 -29 41 -20
+rect 0 -33 3 -31
+rect 20 -33 23 -31
+<< ntransistor >>
+rect -37 -20 -35 -11
+rect -26 -20 -24 -11
+rect 0 -17 2 -11
+rect 20 -17 22 -11
+rect 32 -20 34 -11
+<< ptransistor >>
+rect -37 1 -35 13
+rect -26 1 -24 13
+rect -6 1 -4 13
+rect 6 1 8 19
+rect 13 1 15 19
+rect 20 1 22 19
+rect 32 1 34 7
+<< polycontact >>
+rect -40 27 -35 32
+rect -26 27 -21 32
+rect -9 27 -4 32
+rect 12 27 17 32
+rect 30 27 35 32
+rect -1 -31 4 -26
+rect 19 -31 24 -26
 << ndcontact >>
 rect -44 -16 -39 -11
 rect -33 -20 -28 -15
@@ -80,65 +143,15 @@ rect 24 1 29 6
 rect 36 2 41 7
 << nsubstratencontact >>
 rect 41 12 46 17
-<< polysilicon >>
-rect -37 13 -35 27
-rect -26 13 -24 27
-rect -6 13 -4 27
-rect 6 19 8 22
-rect 13 19 15 27
-rect 20 19 22 22
-rect 32 7 34 27
-rect -37 -11 -35 1
-rect -26 -2 -24 1
-rect -6 -7 -4 1
-rect 6 -6 8 1
-rect 13 -2 15 1
-rect -26 -9 -4 -7
-rect 0 -8 8 -6
-rect -26 -11 -24 -9
-rect 0 -11 2 -8
-rect 20 -11 22 1
-rect 32 -11 34 1
-rect -37 -23 -35 -20
-rect -26 -23 -24 -20
-rect 0 -26 2 -17
-rect 20 -26 22 -17
-rect 32 -23 34 -20
-<< polycontact >>
-rect -40 27 -35 32
-rect -26 27 -21 32
-rect -9 27 -4 32
-rect 12 27 17 32
-rect 30 27 35 32
-rect -1 -31 4 -26
-rect 19 -31 24 -26
-<< metal1 >>
-rect -39 32 -36 34
-rect -25 32 -22 34
-rect -8 32 -5 34
-rect 13 32 16 34
-rect 31 32 34 34
-rect 38 15 41 21
-rect -28 10 -13 13
-rect 1 11 41 15
-rect 38 7 41 11
-rect -44 -4 -41 1
-rect -21 -4 -18 1
-rect -44 -7 44 -4
-rect -44 -11 -41 -7
-rect -21 -11 -18 -7
-rect 14 -11 17 -7
-rect -7 -19 -4 -17
-rect -28 -20 -4 -19
-rect -31 -22 -4 -20
-rect 6 -19 9 -17
-rect 6 -20 25 -19
-rect 6 -22 28 -20
-rect 38 -29 41 -20
-rect 0 -33 3 -31
-rect 20 -33 23 -31
 << labels >>
 rlabel metal1 38 -29 41 -27 5 GND!
-rlabel metal1 31 32 34 34 1 !reset
 rlabel metal1 38 19 41 21 1 Vdd!
+flabel metal1 44 -7 46 -4 0 FreeSans 8 0 0 0 out
+flabel metal1 0 -33 3 -31 0 FreeSans 8 0 0 0 S0
+flabel metal1 -8 32 -5 34 0 FreeSans 8 0 0 0 S1
+flabel metal1 13 32 16 34 0 FreeSans 8 0 0 0 inv_S2
+flabel metal1 -25 32 -22 34 0 FreeSans 8 0 0 0 inv_S2
+rlabel metal1 31 32 34 34 1 inv_reset
+rlabel metal1 20 -33 23 -31 1 inv_in
+flabel metal1 -39 32 -36 34 0 FreeSans 8 0 0 0 inv_in
 << end >>

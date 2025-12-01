@@ -1,0 +1,38 @@
+ana S0 S1 inv_S2 inv_reset inv_in out
+
+h Vdd!
+l GND!
+
+# Test All States w/o reset (out = S0 | in!S1 | in!s2! | S2!S1)
+h inv_reset
+
+# S1 = 1, inv_in = 1
+
+h S1 inv_in
+l S0 inv_S2 
+s
+assert out 0
+
+# inv_S2 = 1 & inv_in = 1
+h inv_S2
+l S1
+s
+assert out 0
+
+# S1 = 1 & inv_S2 = 1
+h S1
+l inv_in
+s
+assert out 0
+
+# S0 = 1 & other = X
+h S0 inv_in
+l S1
+s
+assert out 0
+
+# Check reset condition
+
+l inv_reset
+s
+assert out 1
