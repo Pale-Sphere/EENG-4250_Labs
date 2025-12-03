@@ -1,0 +1,61 @@
+
+
+vector A a15 a14 a13 a12 a11 a10 a9 a8 a7 a6 a5 a4 a3 a2 a1 a0
+vector B b15 b14 b13 b12 b11 b10 b9 b8 b7 b6 b5 b4 b3 b2 b1 b0
+vector Sum s15 s14 s13 s12 s11 s10 s9 s8 s7 s6 s5 s4 s3 s2 s1 s0 
+
+ana A B Sum  CTRL 
+ana s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14 s15
+
+h Vdd!
+l GND!
+l CTRL
+
+# --------2 + 2, 2-2---------
+setvector A 0000000000000010
+setvector B 0000000000000010
+s 
+
+h ctrl
+s 
+
+l CTRL
+
+# --------10 + 6, 10-6---------
+setvector A 0d10
+setvector B 0d6
+s 
+
+h ctrl
+s 
+
+l CTRL
+
+# --------6 + 10, 6-10---------
+setvector A 0d6
+setvector B 0d10
+s 
+
+h ctrl
+s 
+
+l CTRL
+
+# --------14 + 29, 14-29---------
+setvector A 0d14
+setvector B 0d29
+s 
+
+h ctrl
+s 
+
+l CTRL
+
+# -------- -4+ 4, -4 -4  ---------
+setvector A -0d4
+setvector B 0d4
+s 
+
+h ctrl
+s 
+

@@ -1,0 +1,35 @@
+magic
+tech scmos
+timestamp 1764712717
+<< nwell >>
+rect 8 36 25 39
+<< polysilicon >>
+rect 12 32 14 39
+rect 32 16 42 18
+rect 12 -2 14 3
+<< polycontact >>
+rect 27 15 32 20
+rect -7 -2 -2 3
+<< metal1 >>
+rect 17 28 20 39
+rect 1 16 7 19
+rect 20 16 27 19
+rect 46 2 49 6
+rect -2 -1 49 2
+use inv  inv_1
+timestamp 1764712386
+transform 1 0 36 0 1 23
+box -12 -23 20 16
+use inv  inv_0
+timestamp 1764712386
+transform 1 0 -12 0 1 23
+box -12 -23 20 16
+use trans  trans_0
+timestamp 1761188378
+transform 1 0 9 0 1 22
+box -9 -22 17 14
+<< labels >>
+rlabel polysilicon 12 37 14 39 5 w
+rlabel polysilicon 12 -2 14 -1 1 not_w
+rlabel metal1 18 38 20 39 5 x
+<< end >>

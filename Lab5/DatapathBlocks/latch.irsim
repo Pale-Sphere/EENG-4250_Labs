@@ -1,0 +1,51 @@
+
+
+ana x Phi0 Phi1 out1 output 
+
+h Vdd!
+l GND!
+l x
+l Phi0
+h notPhi0
+l Phi1 
+h notPhi1 
+
+s 
+
+#-------------
+h Phi0
+l notPhi0 
+s 
+# ------------
+
+l Phi0
+h notPhi0 
+
+#--------------
+h x 
+s 
+
+# -----------
+h Phi0 
+l notPhi0 
+s 
+
+# change x while latch is open circut
+l Phi0 
+h notPhi0 
+s 
+
+l x 
+s 
+h x 
+s 
+
+# Now write using phi1 latch 
+h x 
+h Phi1 
+l notPhi1 
+s 
+
+l x 
+s 
+

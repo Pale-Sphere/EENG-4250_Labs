@@ -1,0 +1,56 @@
+
+
+ana x out w not_w r not_r
+
+h Vdd!
+l GND!
+
+#------------- initilaize----------
+l x 
+l w 
+h not_w 
+l r 
+h not_r 
+
+#--------check initial state----
+s 
+
+#-------Write a low value-------
+h w 
+l not_w 
+s  
+l w 
+h not_w
+
+#------Check that the value was written----
+h r 
+l not_r 
+s 
+l r 
+h not_r 
+
+#-----Change input-------------
+h x 
+s 
+
+#-----Write high value -----
+h w 
+l not_w 
+s  
+l w 
+h not_w
+
+#-----Change value before read (not write)----
+l x 
+s 
+
+#--- Read high value -------
+h r 
+l not_r 
+s 
+l r 
+h not_r  
+
+
+
+
