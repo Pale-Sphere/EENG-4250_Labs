@@ -1,4 +1,4 @@
-All blocks are made in accordance to the new DRC rules
+All blocks are made in accordance to the new DRC rules using the "tapeout_SCN6M_DEEP.09.tech27" file
 ## Building Blocks
 Basic circuits which are used throughout the following designs
 - inv.mag: An inverter
