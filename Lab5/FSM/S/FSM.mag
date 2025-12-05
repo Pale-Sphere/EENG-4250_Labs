@@ -1,0 +1,154 @@
+magic
+tech scmos
+timestamp 1764904966
+<< polysilicon >>
+rect 199 14 201 16
+rect 282 14 284 16
+rect 43 -32 45 -30
+rect 99 -32 101 -29
+<< polycontact >>
+rect 197 9 202 14
+rect 279 9 284 14
+rect 41 -37 46 -32
+rect 97 -37 102 -32
+<< metal1 >>
+rect -8 241 -5 243
+rect 23 183 26 188
+rect 37 183 40 188
+rect 82 183 85 188
+rect 94 183 97 188
+rect -8 147 -5 149
+rect 23 89 26 94
+rect 37 88 40 93
+rect 82 89 85 94
+rect 94 90 97 95
+rect -8 53 -5 55
+rect 290 59 344 62
+rect 194 39 197 54
+rect 286 39 289 58
+rect 208 36 274 39
+rect 211 19 277 22
+rect 199 5 202 9
+rect 281 5 284 9
+rect 23 -33 26 -1
+rect 37 -6 40 1
+rect 23 -36 41 -33
+rect 23 -39 26 -36
+rect 82 -33 85 2
+rect 94 -6 97 0
+rect 82 -36 97 -33
+rect 82 -39 85 -36
+<< m2contact >>
+rect 137 258 142 263
+rect 137 213 142 218
+rect 137 164 142 169
+rect 137 119 142 124
+rect 137 70 142 75
+rect 193 54 198 59
+rect 256 55 261 60
+rect 353 54 358 59
+rect 137 25 142 30
+<< metal2 >>
+rect 142 258 155 262
+rect 142 213 147 217
+rect 143 192 147 213
+rect 151 202 155 258
+rect 151 198 225 202
+rect 230 198 327 202
+rect 332 198 375 202
+rect 143 188 375 192
+rect 143 178 315 182
+rect 143 169 147 178
+rect 320 178 375 182
+rect 142 165 147 169
+rect 151 168 375 172
+rect 151 124 155 168
+rect 142 120 155 124
+rect 159 158 375 162
+rect 159 75 163 158
+rect 142 71 163 75
+rect 167 148 236 152
+rect 167 30 171 148
+rect 241 148 298 152
+rect 303 148 336 152
+rect 341 148 375 152
+rect 198 55 256 58
+rect 261 55 353 58
+rect 198 54 353 55
+rect 142 26 171 30
+<< m3contact >>
+rect 225 197 230 202
+rect 327 197 332 202
+rect 315 177 320 182
+rect 236 147 241 152
+rect 298 147 303 152
+rect 336 147 341 152
+<< m123contact >>
+rect -8 236 -3 241
+rect -8 142 -3 147
+rect -8 48 -3 53
+rect 225 119 230 124
+rect 236 119 241 124
+rect 298 122 303 127
+rect 315 122 320 127
+rect 327 122 332 127
+rect 336 122 341 127
+rect 188 84 193 89
+rect 267 84 272 89
+rect 368 82 373 87
+<< metal3 >>
+rect -3 236 8 240
+rect -7 64 -3 142
+rect 4 89 8 236
+rect 225 124 229 197
+rect 236 124 240 147
+rect 298 127 302 147
+rect 315 127 319 177
+rect 327 127 331 197
+rect 336 127 340 147
+rect 4 85 188 89
+rect 267 64 271 84
+rect -7 60 271 64
+rect -7 45 -3 48
+rect 369 45 373 82
+rect -7 41 373 45
+use inv  inv_0
+timestamp 1764712386
+transform -1 0 207 0 1 35
+box -12 -23 20 16
+use inv  inv_1
+timestamp 1764712386
+transform 1 0 276 0 1 35
+box -12 -23 20 16
+use inv  inv_2
+timestamp 1764712386
+transform -1 0 51 0 1 -11
+box -12 -23 20 16
+use inv  inv_3
+timestamp 1764712386
+transform -1 0 107 0 1 -11
+box -12 -23 20 16
+use reg_FSM  reg_FSM_0
+array 0 0 140 0 2 94
+timestamp 1764899263
+transform 1 0 -3 0 1 -1
+box 0 0 140 91
+use S  S_0
+timestamp 1764902203
+transform 1 0 216 0 1 58
+box -33 -3 161 66
+<< labels >>
+rlabel metal1 199 5 202 7 5 reset
+rlabel metal1 281 5 284 7 5 in
+rlabel metal1 -8 241 -5 243 1 'S0
+rlabel metal1 -8 147 -5 149 1 'S1
+rlabel metal1 -8 53 -5 55 1 'S2
+rlabel metal2 372 198 375 202 3 S0
+rlabel metal2 372 188 375 192 3 !S0
+rlabel metal2 372 178 375 182 3 S1
+rlabel metal2 372 168 375 172 3 !S1
+rlabel metal2 372 148 375 152 3 !S2
+rlabel metal2 372 158 375 162 3 S2
+rlabel metal1 23 -39 26 -36 5 phi1
+rlabel metal1 82 -39 85 -36 5 phi0
+<< end >>
