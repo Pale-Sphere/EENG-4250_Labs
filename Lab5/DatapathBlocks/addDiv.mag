@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1764535243
+timestamp 1765226094
 << metal1 >>
 rect 326 2194 343 2197
 rect 332 2059 335 2194
@@ -76,7 +76,7 @@ rect 338 178 343 181
 rect 332 37 335 178
 rect 332 34 343 37
 use add_sub16  add_sub16_0
-timestamp 1764529525
+timestamp 1765226094
 transform 1 0 -471 0 1 -177
-box 471 177 800 2482
+box 470 177 800 2482
 << end >>

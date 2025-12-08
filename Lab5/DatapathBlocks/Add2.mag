@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1764528390
+timestamp 1765225994
 << polysilicon >>
 rect 203 109 205 117
 rect 212 109 214 117
@@ -62,6 +62,31 @@ rect 172 64 177 69
 rect 8 85 12 136
 rect 8 -8 12 80
 rect 26 64 172 68
+<< m123contact >>
+rect -2 122 3 127
+rect 39 122 44 127
+rect 80 122 85 127
+rect 121 122 126 127
+rect 183 103 188 108
+rect -2 50 3 55
+rect 39 50 44 55
+rect 80 50 85 55
+rect 121 50 126 55
+rect 162 50 167 55
+rect 203 50 208 55
+rect 244 50 249 55
+rect 285 50 290 55
+<< metal3 >>
+rect 3 122 39 126
+rect 44 122 80 126
+rect 85 122 121 126
+rect 3 50 39 54
+rect 44 50 80 54
+rect 85 50 121 54
+rect 126 50 162 54
+rect 167 50 203 54
+rect 208 50 244 54
+rect 249 50 285 54
 use NAND2  NAND2_0
 timestamp 1764436683
 transform 1 0 197 0 1 86
