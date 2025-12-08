@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1765228781
+timestamp 1765229495
 << nwell >>
 rect -145 2213 -112 2230
 rect -88 2213 -26 2230
@@ -819,6 +819,7 @@ rect -55 -45 -50 -40
 rect -39 -44 -34 -39
 rect 837 -47 842 -42
 rect 955 -47 960 -42
+rect -42 -70 -37 -65
 << metal2 >>
 rect -55 2163 -51 2229
 rect -55 2019 -51 2158
@@ -1212,6 +1213,7 @@ rect 824 -12 829 -7
 rect 883 -12 888 -7
 rect 941 -12 946 -7
 rect 1000 -12 1005 -7
+rect -69 -70 -64 -65
 << metal3 >>
 rect 119 2291 124 2296
 rect 461 2291 465 2295
@@ -1681,6 +1683,7 @@ rect 819 -39 824 -34
 rect 878 -39 883 -34
 rect 936 -39 941 -34
 rect 995 -39 1000 -34
+rect -37 -70 -32 -65
 << metal4 >>
 rect -119 2202 -115 2227
 rect -119 2197 -118 2202
@@ -1969,6 +1972,7 @@ rect 824 -39 878 -35
 rect 883 -39 936 -35
 rect 941 -39 995 -35
 rect -119 -40 -115 -39
+rect -36 -65 -32 -39
 << m345contact >>
 rect 114 2291 119 2296
 rect 456 2291 461 2296
@@ -2200,6 +2204,7 @@ rect 824 -7 829 -2
 rect 883 -7 888 -2
 rect 941 -7 946 -2
 rect 1000 -7 1005 -2
+rect -74 -70 -69 -65
 << metal5 >>
 rect 119 2291 120 2296
 rect -179 2080 -175 2219
@@ -2462,6 +2467,7 @@ rect 865 51 869 86
 rect 982 51 986 86
 rect -179 7 120 11
 rect -179 3 -175 7
+rect -74 -65 -70 7
 rect 23 -2 27 7
 rect 27 -7 81 -3
 rect 829 -7 883 -3
@@ -2476,48 +2482,48 @@ use latch16  latch16_0
 timestamp 1765142627
 transform 1 0 -116 0 1 1
 box -7 -36 45 2305
-use OR2  OR2_0
-timestamp 1765228411
-transform 0 -1 -30 1 0 -103
-box 0 0 62 49
-use inv  inv_3
-timestamp 1764712386
-transform 1 0 -20 0 1 491
-box -12 -23 20 16
-use inv  inv_0
-timestamp 1764712386
-transform 1 0 -21 0 1 203
-box -12 -23 20 16
-use inv  inv_1
-timestamp 1764712386
-transform 1 0 -21 0 1 59
-box -12 -23 20 16
-use stat  stat_1
+use stat  stat_0
 timestamp 1765140912
-transform 1 0 -55 0 1 108
+transform 1 0 -59 0 1 -35
 box -24 -2 56 39
 use stat  stat_2
 timestamp 1765140912
 transform 1 0 -55 0 1 252
 box -24 -2 56 39
-use stat  stat_0
+use stat  stat_1
 timestamp 1765140912
-transform 1 0 -59 0 1 -35
+transform 1 0 -55 0 1 108
 box -24 -2 56 39
+use inv  inv_1
+timestamp 1764712386
+transform 1 0 -21 0 1 59
+box -12 -23 20 16
+use inv  inv_0
+timestamp 1764712386
+transform 1 0 -21 0 1 203
+box -12 -23 20 16
+use inv  inv_3
+timestamp 1764712386
+transform 1 0 -20 0 1 491
+box -12 -23 20 16
+use OR2  OR2_0
+timestamp 1765228411
+transform 0 -1 -30 1 0 -103
+box 0 0 62 49
 use inv  inv_4
 timestamp 1764712386
 transform 1 0 -20 0 1 2219
+box -12 -23 20 16
+use inv  inv_2
+array 0 0 32 0 12 144
+timestamp 1764712386
+transform 1 0 -20 0 1 347
 box -12 -23 20 16
 use stat  stat_3
 array 0 0 80 0 12 144
 timestamp 1765140912
 transform 1 0 -55 0 1 396
 box -24 -2 56 39
-use inv  inv_2
-array 0 0 32 0 12 144
-timestamp 1764712386
-transform 1 0 -20 0 1 347
-box -12 -23 20 16
 use reg16  reg16_0
 timestamp 1765140912
 transform 1 0 7 0 1 1

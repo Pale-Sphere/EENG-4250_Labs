@@ -22,3 +22,10 @@ Circuits used in the computation of the DWT
 - reg.mag: A basic 1 bit register. Uses inv.mag, trans.mag, stat.mag. 
 - reg1.mag: A 1-bit register that is pitch matched to the add sub unit. 
 
+
+### 12/8 Update: 
+- datapath.mag: The full datapath with all connections. Contains inputs in0...in15, set_in, set_0, store_out, read_out w_x0, r_x0. 
+The datapath uses m3 as connections between blocks, m4 as GND and m5 as Vdd. 
+- datapath.irsim: The test script for the datapath, contains the DWT algorithm as encoded by the state machine
+- NOR2: A added gate used in the datapath design 
+- OR2: A gate used in datapath made from NOR2 and inv. It is primarily used in the control signal for latch staticizers
