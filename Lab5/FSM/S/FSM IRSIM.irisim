@@ -1,0 +1,65 @@
+# Setup
+
+ana S0 S1 S2 'S0 'S1 'S2 phi0 phi1
+
+h Vdd!
+l GND!
+
+l reset in
+
+vector clk phi0 phi1
+
+clock clk 10 00 01 00
+
+vector state S0 S1 S2
+
+### Check all values are X initially
+
+assert state XXX
+
+### Check reset condition
+
+h reset
+c
+l reset
+assert state 111
+
+### Check Idle0
+
+c
+assert state 000
+c
+assert state 000
+c
+assert state 000
+
+### Check input
+
+h in 
+c
+assert state 001
+c
+assert state 011
+
+### Check idle1
+
+c
+assert state 011
+c
+assert state 011
+
+### Check input and compute
+
+c
+assert state 010
+
+c
+assert state 000
+
+
+### Check reset in defined state
+
+h reset
+c
+assert state 111
+
