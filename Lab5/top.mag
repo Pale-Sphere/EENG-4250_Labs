@@ -1,0 +1,136 @@
+magic
+tech scmos
+timestamp 1765296730
+<< polysilicon >>
+rect 925 79 927 87
+rect 934 84 936 91
+rect 955 67 968 69
+rect 30 36 42 38
+<< polycontact >>
+rect 923 87 928 92
+rect 933 91 938 96
+rect 950 65 955 70
+rect 314 57 319 62
+rect 42 35 47 40
+rect 54 18 59 23
+rect 65 18 70 23
+rect 151 20 156 25
+rect 334 18 339 23
+rect 346 18 351 23
+rect 376 18 381 23
+rect 386 18 391 23
+rect 151 10 156 15
+<< metal1 >>
+rect 397 96 405 99
+rect 417 96 938 98
+rect 417 95 933 96
+rect 417 90 420 95
+rect 410 87 420 90
+rect 596 89 923 92
+rect 305 74 311 77
+rect 18 40 21 66
+rect 18 37 26 40
+rect 47 35 55 38
+rect 55 -3 58 18
+rect 66 15 69 18
+rect 66 12 94 15
+rect 173 14 176 53
+rect 217 49 220 61
+rect 276 37 279 62
+rect 305 48 308 74
+rect 276 34 295 37
+rect 156 11 176 14
+rect 55 -6 204 -3
+rect 201 -181 204 -6
+rect 292 -34 295 34
+rect 315 6 318 57
+rect 335 -14 338 18
+rect 347 -24 350 18
+rect 377 -4 380 18
+rect 387 -24 390 18
+rect 410 -34 413 87
+rect 440 -219 443 -186
+rect 596 -191 599 89
+rect 938 65 950 68
+rect 970 66 989 69
+rect 986 51 989 66
+rect 986 48 1079 51
+rect 559 -194 599 -191
+rect 440 -222 491 -219
+<< m2contact >>
+rect 345 95 350 100
+rect 405 94 410 99
+rect 172 53 177 58
+rect 83 25 88 30
+rect 156 20 161 25
+rect 216 44 221 49
+rect 304 43 309 48
+rect 314 1 319 6
+rect 334 -19 339 -14
+rect 376 -9 381 -4
+rect 346 -29 351 -24
+rect 385 -29 390 -24
+rect 291 -39 296 -34
+rect 409 -39 414 -34
+rect 201 -186 206 -181
+rect 439 -186 444 -181
+rect 905 55 910 60
+<< metal2 >>
+rect 346 58 350 95
+rect 410 95 992 99
+rect 988 60 992 95
+rect 177 54 350 58
+rect 988 56 1018 60
+rect 221 44 304 48
+rect 161 20 209 24
+rect 205 16 209 20
+rect 205 12 214 16
+rect 206 -186 439 -182
+<< m123contact >>
+rect 905 73 910 78
+rect 83 43 88 48
+<< m234contact >>
+rect 900 55 905 60
+rect 88 25 93 30
+<< metal4 >>
+rect 900 64 998 68
+rect 900 60 904 64
+rect 145 29 149 42
+rect 93 25 149 29
+<< m345contact >>
+rect 637 162 642 167
+rect 900 73 905 78
+rect 88 43 93 48
+<< metal5 >>
+rect 638 167 642 247
+rect 900 78 904 252
+rect 93 44 111 48
+use NAND2  NAND2_1
+timestamp 1764436683
+transform -1 0 74 0 1 26
+box -12 -7 29 28
+use inv  inv_0
+timestamp 1764712386
+transform 1 0 960 0 1 73
+box -12 -23 20 16
+use NAND2  NAND2_0
+timestamp 1764436683
+transform 1 0 919 0 1 56
+box -12 -7 29 28
+use FSM  FSM_0
+timestamp 1765291280
+transform -1 0 585 0 1 -186
+box -8 -39 377 278
+use c_sig  c_sig_0
+timestamp 1765291363
+transform -1 0 407 0 1 19
+box -1 0 102 80
+use datapath  datapath_0
+timestamp 1765293328
+transform 1 0 181 0 1 103
+box -181 -103 1041 2306
+use inv  inv_1
+timestamp 1764712386
+transform -1 0 38 0 1 43
+box -12 -23 20 16
+<< end >>
