@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1764565355
+timestamp 1765142561
 << nwell >>
 rect -12 -6 33 11
 << pwell >>
@@ -35,38 +35,40 @@ rect 12 5 14 8
 rect 6 -12 8 0
 rect 12 -4 14 0
 rect 12 -12 14 -8
-rect 29 -7 48 -5
 rect 6 -20 8 -17
 rect 12 -20 14 -17
 << polycontact >>
 rect 3 8 8 13
 rect 12 8 17 13
-rect 24 -9 29 -4
 rect 12 -25 17 -20
 << metal1 >>
-rect 23 84 26 87
-rect -12 16 16 19
-rect 13 13 16 16
+rect -1 23 2 87
+rect 18 13 21 87
 rect -12 9 3 12
 rect -4 1 0 4
 rect 16 -5 19 0
-rect 16 -8 24 -5
+rect 16 -8 28 -5
 rect 16 -12 19 -8
-rect 51 -7 61 -4
 rect -4 -16 0 -13
-rect -12 -24 12 -21
-rect 58 -37 61 -7
-rect 58 -40 62 -37
-rect 23 -57 26 -54
-use inv  inv_0
-timestamp 1764558484
-transform 1 0 41 0 1 0
-box -13 -24 20 16
+rect 3 -24 12 -21
+rect -1 -57 2 -26
+rect 25 -37 28 -8
+rect 25 -40 33 -37
+rect 18 -57 21 -56
+<< m2contact >>
+rect -2 18 3 23
+rect 17 8 22 13
+rect -2 -26 3 -21
+rect 17 -56 22 -51
+<< metal2 >>
+rect -1 -21 3 18
+rect 17 -51 21 8
 << labels >>
 rlabel metal1 -3 2 -1 3 1 Vdd!
 rlabel metal1 -3 -15 -1 -14 1 GND!
 rlabel metal1 -12 9 -10 12 3 x
-rlabel metal1 -12 16 -10 19 4 notPhi
-rlabel metal1 -12 -24 -10 -21 2 Phi
-rlabel metal1 59 -40 62 -37 7 out
+rlabel metal1 18 -57 21 -56 1 not_phi
+rlabel metal1 -1 -57 2 -56 1 phi
+rlabel metal1 25 -26 28 -23 1 latchOut
+rlabel metal1 30 -40 33 -37 7 out
 << end >>
