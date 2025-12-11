@@ -1,0 +1,19 @@
+magic
+tech scmos
+timestamp 1765228411
+<< polysilicon >>
+rect 37 22 50 24
+<< polycontact >>
+rect 32 21 37 26
+<< metal1 >>
+rect 25 21 32 24
+rect 52 21 57 24
+use inv  inv_0
+timestamp 1764712386
+transform 1 0 42 0 1 29
+box -12 -23 20 16
+use NOR2  NOR2_0
+timestamp 1765228337
+transform 1 0 15 0 1 39
+box -15 -39 20 10
+<< end >>

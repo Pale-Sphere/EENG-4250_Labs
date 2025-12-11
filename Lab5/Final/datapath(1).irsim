@@ -1,0 +1,129 @@
+
+# set vectors
+vector in in15 in14 in13 in12 in11 in10 in9 in8 in7 in6 in5 in4 in3 in2 in1 in0
+vector X1 x1_15 x1_14 x1_13 x1_12 x1_11 x1_10 x1_9 x1_8 x1_7 x1_6 x1_5 x1_4 x1_3 x1_2 x1_1 x1_0
+vector X0 x0_15 x0_14 x0_13 x0_12 x0_11 x0_10 x0_9 x0_8 x0_7 x0_6 x0_5 x0_4 x0_3 x0_2 x0_1 x0_0
+vector A a15 a14 a13 a12 a11 a10 a9 a8 a7 a6 a5 a4 a3 a2 a1 a0 
+vector D d15 d14 d13 d12 d11 d10 d9 d8 d7 d6 d5 d4 d3 d2 d1 d0 
+
+
+ana in A D X0 X1 set_in set_0 w_x0 r_x0 store_out read_out
+
+# Initialize our inputs
+
+h Vdd!
+l GND!
+setvector in 0d0
+
+l set_in
+l set_0 
+
+l w_x0 
+l r_x0
+l store_out
+h read_out
+s
+ 
+# -----------reset register: --------------
+h set_0 
+
+h w_x0
+h r_x0
+s 
+l set_0 
+
+l w_x0
+# ------------------------------------------
+
+# ---------State 0 (Idle 1)-------
+setvector in 0d5
+#-------------------------------------------
+
+#---------State 1 Load x0 ------------------
+h set_in 
+
+h w_x0
+s 
+#-------Finish State 1----------------------
+l set_in 
+
+l w_x0
+
+#-------State 3 (Idle 2)-------------------
+# Set our second value
+setvector in 0d3 
+s 
+
+#------State 2: (Compute)------------------
+h set_in 
+
+h r_x0
+h store_out
+s 
+l set_in 
+
+l r_x0
+l store_out
+
+#--------------------------------------------
+#--------Back to state 0 (Idle 1)------------
+# ---------State 0 (Idle 1)-------
+setvector in 0d4
+#-------------------------------------------
+
+#---------State 1 Load x0 ------------------
+h set_in 
+
+h w_x0
+s 
+#-------Finish State 1----------------------
+l set_in 
+
+l w_x0
+
+#-------State 3 (Idle 2)-------------------
+# Set our second value
+setvector in 0d9
+s 
+
+#------State 2: (Compute)------------------
+h set_in 
+
+h r_x0
+h store_out
+s 
+l set_in 
+
+l r_x0
+l store_out
+
+#--------------------------------------------
+#--------Back to state 0 (Idle 1)------------
+# ---------State 0 (Idle 1)-------
+setvector in 0d12
+#-------------------------------------------
+
+#---------State 1 Load x0 ------------------
+h set_in 
+
+h w_x0
+s 
+#-------Finish State 1----------------------
+l set_in 
+
+l w_x0
+
+#-------State 3 (Idle 2)-------------------
+# Set our second value
+setvector in 0d8
+s 
+
+#------State 2: (Compute)------------------
+h set_in 
+h r_x0
+h store_out
+s 
+l set_in 
+l r_x0
+l store_out
+

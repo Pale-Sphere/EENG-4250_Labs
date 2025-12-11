@@ -1,0 +1,321 @@
+magic
+tech scmos
+timestamp 1765490457
+<< pwell >>
+rect 199 12 201 15
+rect 197 10 202 12
+<< pdiffusion >>
+rect 57 267 62 272
+rect 57 226 62 231
+rect 9 173 14 178
+rect 57 173 62 178
+rect 9 132 14 137
+rect 57 132 62 137
+rect 57 79 62 84
+rect 57 38 62 43
+<< polysilicon >>
+rect 199 12 201 16
+rect 282 12 284 16
+rect 43 -32 45 -30
+rect 99 -32 101 -29
+<< polycontact >>
+rect 197 7 202 12
+rect 279 7 284 12
+rect 41 -37 46 -32
+rect 97 -37 102 -32
+<< metal1 >>
+rect -8 241 -5 243
+rect 23 183 26 188
+rect 37 183 40 188
+rect 82 183 85 188
+rect 94 183 97 188
+rect -8 147 -5 149
+rect 23 89 26 94
+rect 37 88 40 93
+rect 82 89 85 94
+rect 94 90 97 95
+rect -8 53 -5 55
+rect 290 59 344 62
+rect 194 37 197 54
+rect 257 37 262 38
+rect 209 34 275 37
+rect 286 36 289 58
+rect 234 20 239 21
+rect 210 17 276 20
+rect 199 5 202 7
+rect 281 5 284 7
+rect 23 -33 26 -1
+rect 37 -6 40 1
+rect 57 -10 62 -6
+rect 57 -11 60 -10
+rect 57 -28 62 -23
+rect 23 -36 41 -33
+rect 23 -39 26 -36
+rect 82 -33 85 2
+rect 94 -6 97 0
+rect 106 -6 108 -2
+rect 106 -9 111 -6
+rect 108 -10 111 -9
+rect 82 -36 97 -33
+rect 82 -39 85 -36
+<< m2contact >>
+rect 137 258 142 263
+rect 0 250 5 255
+rect 57 250 62 255
+rect 0 209 5 214
+rect 57 209 62 214
+rect 108 209 113 214
+rect 137 213 142 218
+rect 137 164 142 169
+rect 0 156 5 161
+rect 57 156 62 161
+rect 0 115 5 120
+rect 57 115 62 120
+rect 108 115 113 120
+rect 137 119 142 124
+rect 137 70 142 75
+rect 0 62 5 67
+rect 57 62 62 67
+rect 193 54 198 59
+rect 256 55 261 60
+rect 353 54 358 59
+rect 0 21 5 26
+rect 57 21 62 26
+rect 108 21 113 26
+rect 137 25 142 30
+rect 234 21 239 26
+rect 57 -23 62 -18
+rect 111 -23 116 -18
+<< metal2 >>
+rect 142 258 155 262
+rect 142 213 147 217
+rect 143 192 147 213
+rect 151 202 155 258
+rect 151 198 225 202
+rect 230 198 327 202
+rect 332 198 375 202
+rect 143 188 375 192
+rect 143 178 315 182
+rect 143 169 147 178
+rect 320 178 375 182
+rect 142 165 147 169
+rect 151 168 375 172
+rect 151 124 155 168
+rect 142 120 155 124
+rect 159 158 375 162
+rect 159 75 163 158
+rect 142 71 163 75
+rect 167 148 236 152
+rect 167 30 171 148
+rect 241 148 298 152
+rect 303 148 336 152
+rect 341 148 375 152
+rect 198 55 256 58
+rect 261 55 353 58
+rect 198 54 353 55
+rect 142 26 171 30
+rect 108 -23 111 -18
+<< m3contact >>
+rect 225 197 230 202
+rect 327 197 332 202
+rect 315 177 320 182
+rect 236 147 241 152
+rect 298 147 303 152
+rect 336 147 341 152
+<< m123contact >>
+rect 9 267 14 272
+rect 57 267 62 272
+rect -8 236 -3 241
+rect 9 226 14 231
+rect 57 226 62 231
+rect 108 226 113 231
+rect 9 173 14 178
+rect 57 173 62 178
+rect -8 142 -3 147
+rect 9 132 14 137
+rect 57 132 62 137
+rect 108 132 113 137
+rect 9 79 14 84
+rect 57 79 62 84
+rect -8 48 -3 53
+rect 9 38 14 43
+rect 57 38 62 43
+rect 108 38 113 43
+rect 225 119 230 124
+rect 236 119 241 124
+rect 298 122 303 127
+rect 315 122 320 127
+rect 327 122 332 127
+rect 336 122 341 127
+rect 257 109 262 114
+rect 188 84 193 89
+rect 267 84 272 89
+rect 368 82 373 87
+rect 257 38 262 43
+rect 57 -6 62 -1
+rect 108 -6 113 -1
+<< metal3 >>
+rect -3 236 -2 240
+rect -7 189 -3 236
+rect -7 185 134 189
+rect -7 97 -3 142
+rect -7 93 111 97
+rect 107 77 111 93
+rect 130 89 134 185
+rect 225 124 229 197
+rect 236 124 240 147
+rect 298 127 302 147
+rect 315 127 319 177
+rect 327 127 331 197
+rect 336 127 340 147
+rect 130 85 188 89
+rect 267 77 271 84
+rect 107 73 271 77
+rect 267 66 271 73
+rect 369 52 373 82
+rect -3 48 373 52
+<< m234contact >>
+rect 5 250 10 255
+rect 52 250 57 255
+rect 5 209 10 214
+rect 52 209 57 214
+rect 103 209 108 214
+rect 5 156 10 161
+rect 52 156 57 161
+rect 5 115 10 120
+rect 52 115 57 120
+rect 103 115 108 120
+rect 5 62 10 67
+rect 52 62 57 67
+rect 228 62 233 67
+rect 5 21 10 26
+rect 52 21 57 26
+rect 103 21 108 26
+rect 229 21 234 26
+rect 52 -23 57 -18
+rect 103 -23 108 -18
+<< metal4 >>
+rect 5 255 9 275
+rect 10 251 52 255
+rect 5 214 9 250
+rect 52 214 56 250
+rect 103 214 107 275
+rect 10 210 52 214
+rect 57 210 103 214
+rect 5 161 9 209
+rect 52 161 56 209
+rect 10 156 52 160
+rect 5 120 9 156
+rect 52 120 56 156
+rect 103 120 107 209
+rect 10 115 52 119
+rect 57 115 103 119
+rect 5 67 9 115
+rect 52 67 56 115
+rect 10 62 52 66
+rect 103 66 107 115
+rect 261 109 262 114
+rect 57 62 228 66
+rect 5 26 9 62
+rect 52 26 56 62
+rect 103 26 107 62
+rect 229 26 233 62
+rect 10 21 52 25
+rect 57 21 103 25
+rect 108 21 229 25
+rect 52 -18 56 21
+rect 103 -18 107 21
+rect 57 -23 103 -19
+<< m345contact >>
+rect 14 267 19 272
+rect 62 267 67 272
+rect 14 226 19 231
+rect 62 226 67 231
+rect 113 226 118 231
+rect 14 173 19 178
+rect 62 173 67 178
+rect 14 132 19 137
+rect 62 132 67 137
+rect 113 132 118 137
+rect 14 79 19 84
+rect 62 79 67 84
+rect 262 109 267 114
+rect 14 38 19 43
+rect 62 38 67 43
+rect 113 38 118 43
+rect 262 38 267 43
+rect 62 -6 67 -1
+rect 113 -6 118 -1
+<< metal5 >>
+rect 14 272 18 275
+rect 19 268 62 272
+rect 14 231 18 267
+rect 62 231 66 267
+rect 19 227 62 231
+rect 67 227 113 231
+rect 14 178 18 226
+rect 62 178 66 226
+rect 19 174 62 178
+rect 14 137 18 173
+rect 62 137 66 173
+rect 113 137 117 226
+rect 19 133 62 137
+rect 67 133 113 137
+rect 14 84 18 132
+rect 62 84 66 132
+rect 19 80 62 84
+rect 14 43 18 79
+rect 62 43 66 79
+rect 113 43 117 132
+rect 257 109 262 114
+rect 262 43 266 109
+rect 19 39 62 43
+rect 67 39 113 43
+rect 118 39 262 43
+rect 14 -1 18 38
+rect 62 -1 66 38
+rect 113 -1 117 38
+rect 14 -5 62 -1
+rect 67 -5 113 -1
+use inv  inv_0
+timestamp 1764712386
+transform -1 0 207 0 1 33
+box -12 -23 20 16
+use inv  inv_1
+timestamp 1764712386
+transform 1 0 276 0 1 33
+box -12 -23 20 16
+use inv  inv_2
+timestamp 1764712386
+transform -1 0 51 0 1 -11
+box -12 -23 20 16
+use inv  inv_3
+timestamp 1764712386
+transform -1 0 107 0 1 -11
+box -12 -23 20 16
+use reg_FSM  reg_FSM_0
+array 0 0 140 0 2 94
+timestamp 1765490457
+transform 1 0 -3 0 1 -1
+box 0 0 140 91
+use S  S_0
+timestamp 1764902203
+transform 1 0 216 0 1 58
+box -33 -3 161 66
+<< labels >>
+rlabel metal1 199 5 202 7 5 reset
+rlabel metal1 281 5 284 7 5 in
+rlabel metal1 -8 241 -5 243 1 'S0
+rlabel metal1 -8 147 -5 149 1 'S1
+rlabel metal1 -8 53 -5 55 1 'S2
+rlabel metal2 372 198 375 202 3 S0
+rlabel metal2 372 188 375 192 3 !S0
+rlabel metal2 372 178 375 182 3 S1
+rlabel metal2 372 168 375 172 3 !S1
+rlabel metal2 372 148 375 152 3 !S2
+rlabel metal2 372 158 375 162 3 S2
+rlabel metal1 23 -39 26 -36 5 phi1
+rlabel metal1 82 -39 85 -36 5 phi0
+rlabel metal5 14 273 18 275 1 Vdd!
+rlabel metal4 5 273 9 275 1 GND!
+<< end >>
