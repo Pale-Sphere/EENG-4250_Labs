@@ -6,3 +6,5 @@ Other fixes:
 
 - read_out is only high on state compute & output
 - output out_valid is added, and is equivalent to read_out
+
+Actually had to reduce it further to 10 bits of operation
