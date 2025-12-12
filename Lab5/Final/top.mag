@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1765557285
+timestamp 1765560453
 << polysilicon >>
 rect 925 79 927 87
 rect 934 84 936 91
@@ -140,4 +140,7 @@ transform -1 0 74 0 1 26
 box -12 -7 29 28
 << labels >>
 rlabel metal1 1221 48 1222 51 3 out_valid
+rlabel metal2 210 12 213 16 1 S0
+rlabel space 210 -8 213 -4 1 S1
+rlabel space 210 -28 213 -24 1 S2
 << end >>
