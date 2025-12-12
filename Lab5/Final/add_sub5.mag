@@ -1,0 +1,30 @@
+magic
+tech scmos
+timestamp 1765494524
+<< metal1 >>
+rect 325 777 328 784
+rect 325 633 328 640
+rect 325 489 328 496
+rect 325 345 328 352
+rect 325 201 328 208
+use Add2  Add2_0
+timestamp 1765494524
+transform 1 0 20 0 1 68
+box -2 -8 328 136
+use Add2  Add2_1
+timestamp 1765494524
+transform 1 0 20 0 1 212
+box -2 -8 328 136
+use Add2  Add2_2
+timestamp 1765494524
+transform 1 0 20 0 1 356
+box -2 -8 328 136
+use Add2  Add2_3
+timestamp 1765494524
+transform 1 0 20 0 1 500
+box -2 -8 328 136
+use Add2  Add2_4
+timestamp 1765494524
+transform 1 0 20 0 1 644
+box -2 -8 328 136
+<< end >>

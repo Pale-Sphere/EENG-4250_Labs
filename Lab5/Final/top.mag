@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1765490791
+timestamp 1765557285
 << polysilicon >>
 rect 925 79 927 87
 rect 934 84 936 91
@@ -103,31 +103,39 @@ rect 638 167 642 247
 rect 900 78 904 252
 rect 93 44 111 48
 use c_sig  c_sig_0
-timestamp 1765291363
+timestamp 1765494524
 transform -1 0 407 0 1 19
 box -1 0 102 80
 use datapath  datapath_0
-timestamp 1765490457
+timestamp 1765494524
 transform 1 0 181 0 1 103
-box -181 -103 1041 1733
+box -181 -103 1041 1445
 use FSM  FSM_0
-timestamp 1765490457
+timestamp 1765494524
 transform -1 0 585 0 1 -186
 box -8 -39 377 278
 use inv  inv_0
-timestamp 1764712386
+timestamp 1765494487
 transform 1 0 960 0 1 73
 box -12 -23 20 16
 use inv  inv_1
-timestamp 1764712386
+timestamp 1765494487
 transform -1 0 38 0 1 43
 box -12 -23 20 16
+use inv  inv_2
+timestamp 1765494487
+transform 1 0 13 0 1 91
+box -12 -23 20 16
+use inv  inv_3
+timestamp 1765494487
+transform 1 0 70 0 1 91
+box -12 -23 20 16
 use NAND2  NAND2_0
-timestamp 1764436683
+timestamp 1765494487
 transform 1 0 919 0 1 56
 box -12 -7 29 28
 use NAND2  NAND2_1
-timestamp 1764436683
+timestamp 1765494487
 transform -1 0 74 0 1 26
 box -12 -7 29 28
 << labels >>

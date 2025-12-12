@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1765225994
+timestamp 1765494524
 << polysilicon >>
 rect 203 109 205 117
 rect 212 109 214 117
@@ -88,27 +88,27 @@ rect 167 50 203 54
 rect 208 50 244 54
 rect 249 50 285 54
 use NAND2  NAND2_0
-timestamp 1764436683
+timestamp 1765494487
 transform 1 0 197 0 1 86
 box -12 -7 29 28
 use NAND2  NAND2_1
-timestamp 1764436683
+timestamp 1765494487
 transform 1 0 238 0 1 86
 box -12 -7 29 28
 use NAND2  NAND2_2
-timestamp 1764436683
+timestamp 1765494487
 transform 1 0 279 0 1 86
 box -12 -7 29 28
 use XOR2  XOR2_0
-timestamp 1764437390
+timestamp 1765494524
 transform 1 0 0 0 1 26
 box 0 -26 164 35
 use XOR2  XOR2_1
-timestamp 1764437390
+timestamp 1765494524
 transform 1 0 164 0 1 26
 box 0 -26 164 35
 use XOR2  XOR2_2
-timestamp 1764437390
+timestamp 1765494524
 transform 1 0 0 0 1 98
 box 0 -26 164 35
 << labels >>

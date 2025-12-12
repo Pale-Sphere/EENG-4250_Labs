@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1764902203
+timestamp 1765494524
 << nwell >>
 rect -10 48 -6 51
 rect -10 40 -7 48
@@ -37,7 +37,7 @@ rect 146 7 151 12
 rect -4 8 49 12
 rect 54 8 146 12
 use inv  inv_0
-timestamp 1764712386
+timestamp 1765494487
 transform -1 0 -13 0 1 35
 box -12 -23 20 16
 use S1  S1_0
