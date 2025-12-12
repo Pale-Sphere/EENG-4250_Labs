@@ -12,3 +12,5 @@ Lab Report Bullet Points
 - Next Steps:
 - Show Multi-Layer Diagram (attatched in folder)
 - With our architecture 
+- This multi-layer approach can be generated in-chip, but the number of bits per number owuld have to be reduced
+- 
