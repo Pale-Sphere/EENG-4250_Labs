@@ -12,15 +12,18 @@ vector H H0 H1 H2 H3 H4 H5 H6 H7 H8 H9
 vector L out_valid L0 L1 L2 L3 L4 L5 L6 L7 L8 L9
 vector state S0 S1 S2
 
-ana S0 S1 S2
+ana state input H L clk reset in out_valid
 
 ### Test Reset
 c
 c
 h reset
 c
+c
 assert state 111
+c
 l reset
+c
 c
 assert state 000
 
@@ -30,65 +33,65 @@ assert state 000
 
 ### 1 & 1 (H = 0, L = 1)
 
-input 10000000001
+setvector input 10000000001
 c
 c
 c
 c
 c
 assert H 0000000000
-assert L 100000000001
+assert L 10000000001
 
 ### 2 & 4 (H = 1, L = 3)
 
-input 10000000010
+setvector input 10000000010
 c
 c
-input 10000000100
+setvector input 10000000100
 c
 c
 c
 assert H 0000000001
-assert L 100000000011
+assert L 10000000011
 
 
 ### Edge Cases
 
 ### 0 & 0 (H = 0, L = 0)
 
-input 10000000000
+setvector input 10000000000
 c
 c
-input 10000000000
+setvector input 10000000000
 c
 c
 c
 assert H 0000000000
-assert L 100000000000
+assert L 10000000000
 
 ### 2 & 0 (H = -1, L = 1)
 
-input 10000000010
+setvector input 10000000010
 c
 c
-input 10000000000
+setvector input 10000000000
 c
 c
 c
 assert H 1111111111
-assert L 100000000001
+assert L 10000000001
 
 ### 1 & 511 (H = 510, L = 512 (overflow))
 
-input 10000000001
+setvector input 10000000001
 c
 c
-input 10111111111
+setvector input 10111111111
 c
 c
 c
 assert H 0000000001
-assert L 100000000011
+assert L 10000000011
 
 
 
