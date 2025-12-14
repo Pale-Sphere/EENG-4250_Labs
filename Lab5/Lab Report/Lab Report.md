@@ -36,12 +36,14 @@ This process allows the chip to operate pseudo-asynchronously. As long as the ex
 Above is the diagram of the in and out pins from the Datapad. All inputs and outputs are coded with 10 bits. i0 to i9 are the inputs of x, H0 to H9 are the Higher Filtered Parts of the Signal x, and L0 to L9 are the Low Passed Parts of the Signal x. The signal "in" is used to verify a valid input, it's 1 when a valid input is being sent through, and 0 otherwise. The same is done for the "out" signal, but for outputs instead.
 ### Next Steps
 
-With this processor, only a single-layer transformation is done. Whilst this can be satisfactory for some applications, it can often be better to reiterate the L factor of data multiple times in order to achieve a multi-octave tree. Our architecture can theoretically be iterated upon {}
+With this processor, only a single-layer transformation is done. Whilst this can be satisfactory for some applications, it can often be better to reiterate the L factor of data multiple times in order to achieve a multi-octave tree. Our architecture can theoretically be iterated upon infinitely, with the main downside of each layer taking more and more time and inputs to calculate, and requiring more power draw from the input buss.
 
 
 ![[MultiLayer Diagram.png]]
 
-Each input arrives within the chip on phi0, and each output is made on phi1. This complementary system allows the signals to guarantee stability between each other before being sampled. Additionally because the output ideally takes double the time of an x input, allowing DWT_2 to alternate between taking a new x value and L as-needed with minimal added control logic. 
-### Conclusion
+Each input arrives within the chip on phi0, and each output is made on phi1. This complementary system allows the signals to guarantee stability between each other before being sampled. Additionally because the output ideally takes double the time of an x input, allowing DWT_2 to alternate between taking a new x value and L as-needed with minimal added control logic, only requiring a MUX that utilizes the out_valid output c-signal.
+### Final Design and Conclusions
 
+![[DWT.png]]
 
+Overall, the final design successfully implements a real-time, single-level 1D Haar Discrete Wavelet Transform and operates as intended based on the defined mathematical model and architectural constraints. Outside of the future steps mentioned above, further improvements could be made towards both the flip-flop registers and summation blocks, further increasing the possible clock speed. While the current implementation performs a single-stage decomposition, the modular nature of the design allows for straightforward extension into a multi-level wavelet tree by iteratively processing the low-frequency output. This scalability, combined with the complementary clocking scheme, suggests that deeper transformations can be achieved with minimal additional control logic.
