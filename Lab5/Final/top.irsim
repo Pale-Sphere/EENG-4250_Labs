@@ -16,14 +16,11 @@ ana state input H L clk reset in out_valid
 
 ### Test Reset
 c
-c
 h reset
-c
 c
 assert state 111
 c
 l reset
-c
 c
 assert state 000
 
@@ -48,7 +45,6 @@ setvector input 10000000010
 c
 c
 setvector input 10000000100
-c
 c
 c
 assert H 0000000001
